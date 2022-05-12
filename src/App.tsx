@@ -48,23 +48,23 @@ function App() {
         <MediaShelf
           media={[
             {
-              imageUrl: "ascensionx/images/island-forest.png",
+              imageUrl: "/images/island-forest.png",
               caption: "forest",
             },
             {
-              imageUrl: "ascensionx/images/island-quarry.png",
+              imageUrl: "/images/island-quarry.png",
               caption: "quarry",
             },
             {
-              imageUrl: "ascensionx/images/island-wetland.png",
+              imageUrl: "/images/island-wetland.png",
               caption: "wetlands",
             },
             {
-              imageUrl: "ascensionx/images/island-lake.png",
+              imageUrl: "/images/island-lake.png",
               caption: "lakeside",
             },
             {
-              imageUrl: "ascensionx/images/island-oil.png",
+              imageUrl: "/images/island-oil.png",
               caption: "oil fields",
             },
           ]}
@@ -205,7 +205,7 @@ function App() {
         <p>Coming soon...</p>
       </article>
       <footer>
-        © 2022 AscensionX.
+        © 2022 .
       </footer>
     </main>
   );

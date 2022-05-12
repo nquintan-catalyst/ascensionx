@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header__left">
-        <img src="ascensionx/logo.png" alt="logo" className="logo" />
+        <img src="/logo.png" alt="logo" className="logo" />
       </div>
       <div className="header__right">
         <Menu />
