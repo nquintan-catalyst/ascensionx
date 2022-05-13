@@ -10,7 +10,7 @@ const MediaShelf: React.FC<MediaShelfProps> = ({ media }) => {
           <li key={`${caption}-${imageUrl}`}>
             <figure>
               <picture>
-                <img src={imageUrl} alt={caption} loading="lazy" />
+                <img src={`ascensionx/${imageUrl}`} alt={caption} loading="lazy" />
               </picture>
               <figcaption>{caption}</figcaption>
             </figure>
