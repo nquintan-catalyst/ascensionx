@@ -8,7 +8,7 @@ const Banner: React.FC = () => {
         </p>
       </div>
       <div className="banner__image">
-        <img src="ascensionx/island1.png" alt="island" />
+        <img src="/ascensionx/island1.png" alt="island" />
         <a className="button button--cta" href="#play-now">
           Coming Soon!
         </a>
