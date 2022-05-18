@@ -337,4 +337,8 @@ footer {
   margin-top: 128px;
   text-align: center;
 }
+
+.pie-chart {
+  max-height: 80vh;
+}
 /*# sourceMappingURL=index.css.map */
