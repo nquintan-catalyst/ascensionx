@@ -1,8 +1,15 @@
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import { Pie } from 'react-chartjs-2';
+
+ChartJS.register(ArcElement, Tooltip, Legend);
+
 const Tokenomics: React.FC = () => {
   return (
     <>
       <h1>Tokenomics</h1>
       <h2>Token Distribution</h2>
+
+      <Pie data={data} />
       <div className="table-container">
         <table>
           <thead>
@@ -50,7 +57,7 @@ const Tokenomics: React.FC = () => {
             </tr>
             <tr>
               <td>Air Drops</td>
-              <td>225,000,000,000</td>
+              <td>20,000,000,000</td>
               <td>2%</td>
               <td>Linear release from the time of the IDO.</td>
               <td>
@@ -130,6 +137,9 @@ const Tokenomics: React.FC = () => {
           </tbody>
         </table>
       </div>
+
+
+
       <h2>Launch Tokenomics</h2>
       <p>
         110 billion tokens available for public sale, with ZERO token-generated
@@ -142,6 +152,28 @@ const Tokenomics: React.FC = () => {
       </p>
     </>
   );
+};
+
+const data = {
+  labels: ['Ascension Tokens', 'P2E Rewards', 'Staking Rewards', 'Air Drops', 'Strategic Sales', 'Marketing', 'IDO', 'Private Raise', 'Game Operations & Development'],
+  datasets: [
+    {
+      label: '% of total',
+      data: [15, 22.5, 22.5, 2, 5, 6.5, 11, 5.5, 10],
+      backgroundColor: [
+        '#68D33B',
+        '#F2D693',
+        '#0C1762',
+        '#0F2C94',
+        '#4F74BF',        
+        '#53422E',
+        '#382C20',
+        '#0D3808',
+        '#177114',
+      ],
+      borderWidth: 2,
+    },
+  ],
 };
 
 export default Tokenomics;
