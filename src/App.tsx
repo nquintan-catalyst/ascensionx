@@ -8,6 +8,7 @@ import Roadmap from "./components/Roadmap";
 import About from "./components/About";
 import Gameplay from "./components/Gameplay";
 import Countdown from "./components/Countdown";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
 
       <article>
         <Roadmap />
+      </article>
+
+      <article>
+        <Faq />
       </article>
 
       <article>
