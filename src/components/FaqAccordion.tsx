@@ -18,6 +18,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ title, content }) => {
     <MotionAccordion
     initial={{ y: 200 }}
     whileInView={{ y: 0 }}
+    viewport={{ once: true }}
     >
       <AccordionSummary
       expandIcon={<ExpandMore />}
