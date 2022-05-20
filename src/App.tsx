@@ -9,48 +9,51 @@ import About from "./components/About";
 import Gameplay from "./components/Gameplay";
 import Countdown from "./components/Countdown";
 import Faq from "./components/Faq";
+import Sidebar from "./components/Sidebar"
 
 function App() {
   return (
     <main className="main">
       <Landingpage />
+      <Sidebar />
+      <div className="main--container">
+        <article>
+          <About />
+        </article>
 
-      <article>
-        <About />
-      </article>
+        <article>
+          <Gameplay />
+        </article>
 
-      <article>
-        <Gameplay />
-      </article>
+        <article>
+          <Tokenomics />
+        </article>
 
-      <article>
-        <Tokenomics />
-      </article>
+        <article>
+          <Roadmap />
+        </article>
 
-      <article>
-        <Roadmap />
-      </article>
+        <article>
+          <Faq />
+        </article>
 
-      <article>
-        <Faq />
-      </article>
+        <article>
+          <Team />
+        </article>
 
-      <article>
-        <Team />
-      </article>
+        <article>
+          <Community />
+          <Socials />
+        </article>
 
-      <article>
-        <Community />
-        <Socials />
-      </article>
+        <article>
+          <Countdown />
+        </article>
 
-      <article>
-        <Countdown />
-      </article>
-
-      <footer>
-        © 2022 .
-      </footer>
+        <footer>
+          © 2022 .
+        </footer>
+      </div>
     </main>
   );
 }
