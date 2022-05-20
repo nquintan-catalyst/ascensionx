@@ -23,7 +23,7 @@ const Tokenomics: React.FC = () => {
       data={data} 
       className="pie-chart"/>
 
-      <div className="table-container">
+      {/*<div className="table-container">
         <table>
           <thead>
             <tr>
@@ -149,7 +149,7 @@ const Tokenomics: React.FC = () => {
             </tr>
           </tbody>
         </table>
-      </div>
+    </div>*/}
 
 
 
