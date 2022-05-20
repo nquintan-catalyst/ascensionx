@@ -12,46 +12,48 @@ import Faq from "./components/Faq";
 
 function App() {
   return (
-    <main className="main">
-      <Landingpage />
+    <div className="container">
+      <main className="main">
+        <Landingpage />
 
-      <article>
-        <About />
-      </article>
+        <article>
+          <About />
+        </article>
 
-      <article>
-        <Gameplay />
-      </article>
+        <article>
+          <Gameplay />
+        </article>
 
-      <article>
-        <Tokenomics />
-      </article>
+        <article>
+          <Tokenomics />
+        </article>
 
-      <article>
-        <Roadmap />
-      </article>
+        <article>
+          <Roadmap />
+        </article>
 
-      <article>
-        <Faq />
-      </article>
+        <article>
+          <Faq />
+        </article>
 
-      <article>
-        <Team />
-      </article>
+        <article>
+          <Team />
+        </article>
 
-      <article>
-        <Community />
-        <Socials />
-      </article>
+        <article>
+          <Community />
+          <Socials />
+        </article>
 
-      <article>
-        <Countdown />
-      </article>
+        <article>
+          <Countdown />
+        </article>
 
-      <footer>
-        © 2022 .
-      </footer>
-    </main>
+        <footer>
+          © 2022 .
+        </footer>
+      </main>
+    </div>
   );
 }
 

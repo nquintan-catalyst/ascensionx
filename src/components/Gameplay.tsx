@@ -1,4 +1,6 @@
 import MediaShelf from "./MediaShelf";
+import tornado from "../images/tornado.gif";
+import { motion } from "framer-motion";
 
 const Gameplay: React.FC = () => {
     return(
@@ -58,6 +60,18 @@ const Gameplay: React.FC = () => {
           and other environmental disasters will make it harder and harder to
           harvest the resources you need to survive.
         </p>
+
+        <div className="gameImage">
+          <motion.img
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 2 }}
+            viewport={{ once: true }}
+            src={tornado}
+            alt="thing"
+          />
+        </div>
+
         <h2>Earn Returns From the Bank!</h2>
         <p>
           Looking for a way to earn additional returns while you play? Lock up

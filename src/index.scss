@@ -142,6 +142,10 @@ img {
   gap: 32px;
 }
 
+.container {
+  background-image: url("./images/full-image.png");
+}
+
 .main {
   display: grid;
   grid-gap: 64px;
@@ -293,5 +297,20 @@ footer {
 .Faq {
   h1 {
     padding-bottom: 2rem;
+  }
+}
+
+.gameImage {
+  max-width:3072px;
+  max-height:2046px;
+  width: 100%;
+
+  background-image: url("./images/gameScreenshot1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  img {
+    width: 30vw;
+    height: auto;
   }
 }
