@@ -1,10 +1,10 @@
-import Thing from "./Thing";
+import TextShelf from "./TextShelf";
 
 const Roadmap: React.FC = () => {
     return(
     <>
         <h1>Join Us On The Journey To Ascension!</h1>
-        <Thing media={[
+        <TextShelf media={[
             {
               name: "Ancestral Stage",
               key: 1,

@@ -1,10 +1,10 @@
-import Thing from "./Thing";
+import TextShelf from "./TextShelf";
 
 const Team: React.FC = () => {
     return(
     <>
         <h1>Team</h1>
-        <Thing media={[
+        <TextShelf media={[
             {
               name: "Dr. Muni Venkateswarlu Kumaramangalam, PhD",
               key: 1,
