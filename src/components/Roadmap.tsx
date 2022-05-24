@@ -4,6 +4,12 @@ const Roadmap: React.FC = () => {
     return(
     <>
         <h1>Join Us On The Journey To Ascension!</h1>
+        <p>
+          As the Ascension team shoots for new heights, this roadmap will be
+          updated regularly to reflect our new goals, achievements, aspirations,
+          and visions for the future of the Ascension token, game, and
+          ecosystem.
+        </p>
         <TextShelf media={[
             {
               name: "Ancestral Stage",
@@ -21,7 +27,7 @@ const Roadmap: React.FC = () => {
               desc: "Patrick is a second-year university student currently working towards completing his Bachelor of Business Administration at Wilfrid Laurier University. He has a passion for all things cryptocurrency, UX/UI, and digital marketing, having assisted with previous cryptocurrency projects and most recently gaining in the world of educational technology at Pencil Learning Technologies. Currently, Patrick is taking on this founding role to dive deeper into the world of cryptocurrency and explore the opportunities that it can provide regarding environmental benefits."
             },
           ]}/>
-        <h2>Ancestral Stage</h2>
+        {/*<h2>Ancestral Stage</h2>
         <ul>
           <li>
             $ASCN Whitepaper V1 & Ascension Ecoverse Technical Blueprints
@@ -56,13 +62,7 @@ const Roadmap: React.FC = () => {
           <li>$ASCN Token Holder Game Launchpad</li>
           <li>Carbon Credit Partnership & Integration</li>
           <li>Further Development Of The $ASCN Ecosystem</li>
-        </ul>
-        <p>
-          As the Ascension team shoots for new heights, this roadmap will be
-          updated regularly to reflect our new goals, achievements, aspirations,
-          and visions for the future of the Ascension token, game, and
-          ecosystem.
-        </p>
+        </ul>*/}
     </>
     );
 };

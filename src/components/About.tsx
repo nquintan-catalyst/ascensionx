@@ -1,6 +1,6 @@
 const About: React.FC = () => {
     return(
-    <>
+    <div className="contentContainer--right">
         <h1>About Ascension</h1>
         <p>
           Ascension Ecoverse is a real-time strategy crypto game where players
@@ -18,7 +18,7 @@ const About: React.FC = () => {
           provides multiple different ways for players to profit, assuming they
           don't bring the world down in the process…
         </p>
-    </>
+    </div>
     );
 };
 

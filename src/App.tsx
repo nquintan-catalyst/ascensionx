@@ -1,5 +1,4 @@
 import "./App.css";
-import Socials from "./components/Socials";
 import Landingpage from "./components/Landingpage";
 import Tokenomics from "./components/Tokenomics";
 import Team from "./components/Team";
@@ -42,7 +41,6 @@ function App() {
 
         <article>
           <Community />
-          <Socials />
         </article>
 
         <article>

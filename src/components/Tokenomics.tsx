@@ -152,7 +152,7 @@ const Tokenomics: React.FC = () => {
     </div>*/}
 
 
-
+    <div className="contentContainer--right">
       <h2>Launch Tokenomics</h2>
       <p>
         110 billion tokens available for public sale, with ZERO token-generated
@@ -163,6 +163,7 @@ const Tokenomics: React.FC = () => {
         A more detailed tokenomics breakdown can be found in the{" "}
         <a href="#whitepaper">whitepaper</a>.
       </p>
+    </div>
     </>
   );
 };

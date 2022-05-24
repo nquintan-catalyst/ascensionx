@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 const Gameplay: React.FC = () => {
     return(
     <>
+      <div className="contentContainer--left">
         <h1>About Polygon</h1>
         <h2>Start On Your Island!</h2>
         <p>
@@ -14,6 +15,7 @@ const Gameplay: React.FC = () => {
           journey, and if you're lucky, some might even come with special traits
           that give you an in-game boost!
         </p>
+      </div>
         <MediaShelf
           media={[
             {
@@ -38,6 +40,7 @@ const Gameplay: React.FC = () => {
             },
           ]}
         />
+        <div className="contentContainer--right">
         <h2>Harvest, Craft, and Sell Your Way to Success!</h2>
         <p>
           Every resource on your island can be harvested, and either crafted
@@ -60,7 +63,7 @@ const Gameplay: React.FC = () => {
           and other environmental disasters will make it harder and harder to
           harvest the resources you need to survive.
         </p>
-
+        </div>
         <div className="gameImage">
           <motion.img
             initial={{ opacity: 0 }}
@@ -71,7 +74,7 @@ const Gameplay: React.FC = () => {
             alt="thing"
           />
         </div>
-
+        <div className="contentContainer--left">
         <h2>Earn Returns From the Bank!</h2>
         <p>
           Looking for a way to earn additional returns while you play? Lock up
@@ -90,6 +93,7 @@ const Gameplay: React.FC = () => {
           players, and combine <a href="whitepaper">trading and sales</a> to
           create unique and profitable strategies!
         </p>
+        </div>
     </>
     );
 };
