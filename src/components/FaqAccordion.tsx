@@ -14,7 +14,7 @@ type FaqAccordionProps = {
 
 const FaqAccordion: React.FC<FaqAccordionProps> = ({ title, content }) => {
   return(
-  <>
+  <div className="FaqAccordion">
     <MotionAccordion
     initial={{ y: 200 }}
     whileInView={{ y: 0 }}
@@ -34,7 +34,7 @@ const FaqAccordion: React.FC<FaqAccordionProps> = ({ title, content }) => {
       </AccordionDetails>
     </MotionAccordion>
 
-  </>
+  </div>
   );
 };
 

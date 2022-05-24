@@ -399,6 +399,10 @@ footer {
   padding-bottom: 2rem;
 }
 
+.FaqAccordion {
+  padding-top: 1rem;
+}
+
 .gameImage {
   max-width: 3072px;
   max-height: 2046px;
