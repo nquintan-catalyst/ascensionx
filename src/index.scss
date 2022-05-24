@@ -283,6 +283,9 @@ img {
       inset-inline-end: calc(var(--gap) * -1);
     }
   }
+  &--item {
+    width: 24rem;
+  }
 }
 
 footer {

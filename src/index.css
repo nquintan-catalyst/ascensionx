@@ -337,6 +337,10 @@ img {
   inset-inline-end: calc(var(--gap) * -1);
 }
 
+.media-shelf--item {
+  width: 24rem;
+}
+
 footer {
   margin-top: 128px;
   text-align: center;
