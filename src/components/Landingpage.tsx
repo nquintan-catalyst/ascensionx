@@ -5,7 +5,13 @@ import { motion } from "framer-motion";
 
 const Landingpage: React.FC = () => {
     return(
-        <>
+        <motion.div
+        initial={{ scale: 3, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{
+            default: { duration: 1 },
+        }}
+        >
         <Header />
         <Banner />
         <div className="stack stack--jic">
@@ -20,7 +26,7 @@ const Landingpage: React.FC = () => {
                 Buy $ASCN
             </motion.a>
         </div>
-        </>
+        </motion.div>
     );
 };
 
