@@ -160,9 +160,9 @@ img {
 }
 
 .contentContainer--right {
-  background-image: url("./images/SmallLeaf.png");
+  background-image: url("./images/RightLeaf.png");
   background-position: right;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   min-height: 18rem;
   width: 100%;
@@ -184,7 +184,7 @@ img {
 }
 
 .contentContainer--left {
-  background-image: url("./images/NicLeaf.png");
+  background-image: url("./images/LeftLeaf.png");
   background-position: left;
   background-size: 100% 100%;
   background-repeat: no-repeat;
