@@ -1,3 +1,4 @@
+import Leaf from "./Leaf";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 
@@ -152,7 +153,7 @@ const Tokenomics: React.FC = () => {
     </div>*/}
 
 
-    <div className="contentContainer--right">
+    <Leaf side="Right">
       <h2>Launch Tokenomics</h2>
       <p>
         110 billion tokens available for public sale, with ZERO token-generated
@@ -163,7 +164,7 @@ const Tokenomics: React.FC = () => {
         A more detailed tokenomics breakdown can be found in the{" "}
         <a href="#whitepaper">whitepaper</a>.
       </p>
-    </div>
+    </Leaf>
     </>
   );
 };
