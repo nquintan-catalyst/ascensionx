@@ -18,6 +18,15 @@ const Tokenomics: React.FC = () => {
             callbacks: {
               footer: footer,
             }
+          },
+          legend: {
+            labels: {
+              boxWidth: 60,
+              padding: 30,
+              font: {
+                  size: 17
+              }
+          }
           }
         }
       }}
