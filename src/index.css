@@ -183,6 +183,14 @@ img {
           justify-content: center;
 }
 
+.contentContainer--right p {
+  color: black;
+}
+
+.contentContainer--right a {
+  color: blue;
+}
+
 .contentContainer--left {
   background-image: url("./images/LeftLeaf.png");
   background-position: left;
@@ -205,6 +213,14 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.contentContainer--left p {
+  color: black;
+}
+
+.contentContainer--left a {
+  color: blue;
 }
 
 .main {

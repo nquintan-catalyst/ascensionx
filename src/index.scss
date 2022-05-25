@@ -158,6 +158,13 @@ img {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+
+  p {
+    color: black;
+  }
+  a {
+    color: blue;
+  }
 }
 
 .contentContainer--left {
@@ -176,6 +183,13 @@ img {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+
+  p {
+    color: black;
+  }
+  a {
+    color: blue;
+  }
 }
 
 .main {
