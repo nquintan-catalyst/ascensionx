@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { motion } from "framer-motion";
 
 type LeafProps = {
     side: "Left" | "Right";
@@ -9,15 +10,23 @@ const Leaf: React.FC<LeafProps> = ({children, side}) => {
 
     if (side === "Left") {
         return(
-            <div className="contentContainer--left">
+            <motion.div
+            initial={{ y: 300 }}
+            whileInView={{ y: 0 }}
+            viewport={{ once: true }}
+            className="contentContainer--left">
                 {children}
-            </div>
+            </motion.div>
         );
     } else {
         return(
-            <div className="contentContainer--right">
+            <motion.div
+            initial={{ y: 300 }}
+            whileInView={{ y: 0 }}
+            viewport={{ once: true }}
+            className="contentContainer--right">
                 {children}
-            </div>
+            </motion.div>
         );
     }
 };
