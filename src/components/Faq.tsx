@@ -1,8 +1,9 @@
 import FaqAccordion from "./FaqAccordion";
+import Leaf from "./Leaf";
 
 const Faq: React.FC =() => {
   return(
-    <div className="contentContainer--left">
+    <Leaf side="Left">
       <div className="Faq">
           <h1>FAQs</h1>
           <FaqAccordion title="Question 1" content={filler} />
@@ -11,7 +12,7 @@ const Faq: React.FC =() => {
           <FaqAccordion title="Question 4" content={filler} />
           <FaqAccordion title="Question 5" content={filler} />
       </div>
-    </div>
+    </Leaf>
   );
 };
 

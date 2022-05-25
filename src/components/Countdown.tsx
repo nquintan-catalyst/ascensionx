@@ -1,9 +1,11 @@
+import Leaf from "./Leaf";
+
 const Countdown: React.FC = () => {
     return(
-    <div className="contentContainer--left">
+    <Leaf side="Left">
         <h1>Get Ready For Launch!</h1>
         <p>Coming soon...</p>
-    </div>
+    </Leaf>
     );
 };
 

@@ -11,7 +11,7 @@ import Faq from "./components/Faq";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <main className="main">
         <Landingpage />
 
