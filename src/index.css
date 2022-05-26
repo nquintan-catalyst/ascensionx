@@ -425,6 +425,10 @@ img {
   right: 4rem;
 }
 
+.media-modal--container img {
+  max-height: calc(90vh - 6rem);
+}
+
 .media-modal--container p {
   color: white;
 }

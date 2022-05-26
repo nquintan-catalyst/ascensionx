@@ -348,6 +348,9 @@ img {
       top: 3rem;
       right: 4rem;
     }
+    img {
+      max-height: calc(90vh - 6rem);
+    }
     p {
       color: white
     }
