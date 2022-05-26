@@ -30,15 +30,18 @@ const MediaItem: React.FC<MediaItemProps> = ({ imageUrl, caption }) => {
       >
         <div className="media-modal">
           <div className="media-modal--container">
-
             <button onClick={()=>setOpen(false)}>
               <GrClose />
             </button>
-            <h1>{caption}</h1>
+
             <img src={`/ascensionx/${imageUrl}`} alt={caption} loading="lazy" />
-            <p>
-              {getText(caption)}
-            </p>
+
+            <div className="media-modal--container--text">
+              <h1>{caption}</h1>
+              <p>
+                {getText(caption)}
+              </p>
+            </div>
           </div>
         </div>
       </Modal>

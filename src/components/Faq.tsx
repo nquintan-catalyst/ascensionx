@@ -17,7 +17,6 @@ const Faq: React.FC =() => {
   );
 };
 
-const filler = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.";
 const q1 = "The current release date for the Ascension Ecoverse Alphas is November 4th, 2022. However, the release dates for the Beta and full game have not yet been determined."
 const q2 = "Ascension Land NFTs are the building blocks of the Ascension Ecoverse. Each player starts the game on their own island, which serves as a ‘home base’ where players can gather resources, build out sustainable income systems, and craft items. Additionally, a few lucky players will be minting islands that provide players with special traits that give the player resource boosts, which you can learn more about here.";
 const q3 = "The $ASCN token is the utility token for the Ascension Ecoverse, and it’s linked to many of the in-game actions, such as crafting items, buy and selling crops and resources, and trading with other players. The token will also be used as part of a staking process for players to earn returns on their staked tokens in the near future.";
