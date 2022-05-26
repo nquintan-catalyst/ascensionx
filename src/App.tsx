@@ -48,7 +48,7 @@ function App() {
         </article>
 
         <footer>
-          © 2022 .
+          © 2022.
         </footer>
       </main>
     </div>

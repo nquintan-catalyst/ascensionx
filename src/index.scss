@@ -317,26 +317,16 @@ img {
     font-weight: 600;
     font-size: 20px;
   }
-  /*& picture {
-    inline-size: var(--size);
-    block-size: var(--size);
-  }*/
-  & li:last-of-type figure {
-    position: relative;
-    &::after {
-      content: "";
-      position: absolute;
-      inline-size: var(--gap);
-      block-size: 100%;
-      inset-block-start: 0;
-      inset-inline-end: calc(var(--gap) * -1);
-    }
-  }
   &--item {
     width: 24rem;
   }
   button {
     background-color: $color-primary;
+  }
+  &--list-item {
+    display: list-item !important;
+    list-style-position: inside;
+
   }
 }
 

@@ -26,7 +26,7 @@ const Socials: React.FC = () => {
       whileHover={{ 
         rotate: [0, 10,  -10, 0],
       }} 
-      href="#social"
+      href="https://twitter.com/ascnecoverse"
       target="_blank"
       rel="noreferrer">
         <FaTwitter />
@@ -37,7 +37,7 @@ const Socials: React.FC = () => {
       whileHover={{ 
         rotate: [0, 10,  -10, 0],
       }} 
-      href="#social"
+      href="https://www.instagram.com/ascensionecoverse/"
       target="_blank"
       rel="noreferrer">
         <FaInstagram />
@@ -48,7 +48,7 @@ const Socials: React.FC = () => {
       whileHover={{ 
         rotate: [0, 10,  -10, 0],
       }} 
-      href="#social"
+      href="https://www.reddit.com/user/AscensionEcoverse"
       target="_blank"
       rel="noreferrer">
         <FaRedditAlien />
@@ -59,7 +59,7 @@ const Socials: React.FC = () => {
       whileHover={{ 
         rotate: [0, 10,  -10, 0],
       }} 
-      href="#social"
+      href="https://medium.com/@ascensionecoverse"
       target="_blank"
       rel="noreferrer">
         <FaMediumM />

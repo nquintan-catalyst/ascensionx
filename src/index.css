@@ -357,10 +357,6 @@ img {
   padding-block: calc(var(--gap) / 2);
   -ms-scroll-snap-type: inline mandatory;
       scroll-snap-type: inline mandatory;
-  /*& picture {
-    inline-size: var(--size);
-    block-size: var(--size);
-  }*/
 }
 
 .media-shelf li {
@@ -385,25 +381,17 @@ img {
   font-size: 20px;
 }
 
-.media-shelf li:last-of-type figure {
-  position: relative;
-}
-
-.media-shelf li:last-of-type figure::after {
-  content: "";
-  position: absolute;
-  inline-size: var(--gap);
-  block-size: 100%;
-  inset-block-start: 0;
-  inset-inline-end: calc(var(--gap) * -1);
-}
-
 .media-shelf--item {
   width: 24rem;
 }
 
 .media-shelf button {
   background-color: #65cd3c;
+}
+
+.media-shelf--list-item {
+  display: list-item !important;
+  list-style-position: inside;
 }
 
 .media-modal {
