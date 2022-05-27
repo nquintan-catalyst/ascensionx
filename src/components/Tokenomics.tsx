@@ -82,8 +82,7 @@ const Tokenomics: React.FC = () => {
   );
 };
 
-const footer = (tooltipItems: any) => {
-  const index = tooltipItems[0].dataIndex;
+const footer = () => {
   return("Click for more info");
 };
 

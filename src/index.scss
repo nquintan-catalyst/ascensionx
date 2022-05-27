@@ -345,7 +345,7 @@ img {
     background-color: rgba(36, 35, 35, 0.75);
     padding: 1rem;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     h1 {
       text-transform: capitalize; 
@@ -361,7 +361,8 @@ img {
       max-height: calc(90vh - 6rem);
     }
     p {
-      color: white
+      color: white;
+      font-size: large;
     }
     &--text {
       padding-left: 1rem;
