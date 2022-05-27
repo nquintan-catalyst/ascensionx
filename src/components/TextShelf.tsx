@@ -4,11 +4,14 @@ type ListProps = {
 
 const List: React.FC<ListProps> = ({ desc }) => {
   return(
-    <ul>
+    <div>
       {desc.map((item: any, index: any) => (
-        <li className="media-shelf--list-item" key={index}>{item}</li>
+       <div>
+         <input type="checkbox" id={index} disabled={true} />
+         <label htmlFor={index}>{item}</label>
+       </div>
       ))}
-    </ul>
+    </div>
   );
 }
 
