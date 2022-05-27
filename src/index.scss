@@ -349,6 +349,7 @@ img {
       right: 4rem;
     }
     img {
+      object-fit: contain;
       max-height: calc(90vh - 6rem);
     }
     p {

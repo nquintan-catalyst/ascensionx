@@ -426,6 +426,8 @@ img {
 }
 
 .media-modal--container img {
+  -o-object-fit: contain;
+     object-fit: contain;
   max-height: calc(90vh - 6rem);
 }
 
