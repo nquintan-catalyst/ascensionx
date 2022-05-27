@@ -183,6 +183,12 @@ img {
           justify-content: center;
 }
 
+@media only screen and (max-width: 1110px) {
+  .contentContainer--right {
+    background-size: cover;
+  }
+}
+
 .contentContainer--right p {
   color: black;
 }
@@ -213,6 +219,12 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (max-width: 1110px) {
+  .contentContainer--left {
+    background-size: cover;
+  }
 }
 
 .contentContainer--left p {

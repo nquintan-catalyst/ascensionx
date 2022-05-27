@@ -146,6 +146,10 @@ img {
 .contentContainer--right {
   background-image: url("./images/RightLeaf.png");
   background-position: right;
+  @media only screen and (max-width: 1110px) {
+    // properties for smaller screens
+    background-size: cover;
+  }
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -171,6 +175,10 @@ img {
 .contentContainer--left {
   background-image: url("./images/LeftLeaf.png");
   background-position: left;
+  @media only screen and (max-width: 1110px) {
+    // properties for smaller screens
+    background-size: cover;
+  }
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
