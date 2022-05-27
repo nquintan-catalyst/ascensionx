@@ -509,4 +509,16 @@ footer {
   width: 30vw;
   height: auto;
 }
+
+.buy {
+  padding-top: 2rem;
+}
+
+.buy h1 {
+  text-align: center;
+}
+
+.buy p {
+  max-width: calc(100vw - 6rem);
+}
 /*# sourceMappingURL=index.css.map */

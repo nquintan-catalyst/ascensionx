@@ -84,12 +84,7 @@ const Tokenomics: React.FC = () => {
 
 const footer = (tooltipItems: any) => {
   const index = tooltipItems[0].dataIndex;
-  
-  return (
-    "Allocation: " + tooltipData[index].Allocation
-    + "\nUnlock Schedule: " + tooltipData[index].Unlock
-    + "\nUse Case: " + tooltipData[index].Use
-    );
+  return("Click for more info");
 };
 
 const tooltipData = [

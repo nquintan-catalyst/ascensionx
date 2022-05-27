@@ -423,3 +423,13 @@ footer {
     height: auto;
   }
 }
+
+.buy {
+  padding-top: 2rem;
+  h1 {
+    text-align: center;
+  }
+  p {
+    max-width: calc(100vw - 6rem);
+  }
+}
