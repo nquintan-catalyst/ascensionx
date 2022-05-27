@@ -1,5 +1,5 @@
 import Modal from '@mui/material/Modal';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { GrClose } from "react-icons/gr";
 import getText from "./IslandInfo";
 
