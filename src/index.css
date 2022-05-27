@@ -439,6 +439,33 @@ img {
   padding-left: 1rem;
 }
 
+.chartModal {
+  padding: 2rem;
+}
+
+.chartModal--container {
+  padding: 1rem;
+  background-color: rgba(36, 35, 35, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.chartModal--container button {
+  background-color: #65cd3c;
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
+}
+
+.chartModal--container p {
+  max-width: calc(100vw - 6rem);
+}
+
 footer {
   margin-top: 128px;
   text-align: center;

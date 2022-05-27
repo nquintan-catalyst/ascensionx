@@ -361,6 +361,27 @@ img {
   }
 }
 
+.chartModal {
+  padding: 2rem;
+  &--container {
+    padding: 1rem;
+    background-color: rgba(36, 35, 35, 0.75);
+
+    display: flex;
+    flex-direction: column;
+
+    button {
+      background-color: $color-primary;
+      position: absolute;
+      top: 3rem;
+      right: 4rem;
+    }
+    p {
+      max-width: calc(100vw - 6rem);
+    }
+  }
+}
+
 footer {
   margin-top: 128px;
   text-align: center;
