@@ -21,7 +21,7 @@ const Landingpage: React.FC = () => {
             whileHover={{ 
                 rotate: [0, 10,  -10, 0],
             }}
-            href="#buy"
+            href="/ascensionx/buy"
             className="button button--2nd">
                 Buy $ASCN
             </motion.a>
