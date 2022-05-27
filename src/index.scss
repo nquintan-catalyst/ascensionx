@@ -309,6 +309,10 @@ img {
   scroll-snap-type: inline mandatory;
   & li {
     display: inline-block;
+    text-align: left;
+  }
+  & h2 {
+    text-align: center;
   }
   & figure {
     display: grid;
@@ -372,6 +376,7 @@ img {
 
 .chartModal {
   padding: 2rem;
+  padding-top: 8rem;
   &--container {
     padding: 1rem;
     background-color: rgba(36, 35, 35, 0.75);
@@ -382,7 +387,7 @@ img {
     button {
       background-color: $color-primary;
       position: absolute;
-      top: 3rem;
+      top: 9rem;
       right: 4rem;
     }
     p {
