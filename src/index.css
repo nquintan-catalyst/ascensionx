@@ -160,7 +160,7 @@ img {
 }
 
 .contentContainer--right {
-  background-image: url("./images/RightLeaf.png");
+  background-image: url("./images/NewLeafRight.png");
   background-position: right;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ img {
 }
 
 .contentContainer--left {
-  background-image: url("./images/LeftLeaf.png");
+  background-image: url("./images/NewLeaf.png");
   background-position: left;
   background-size: 100% 100%;
   background-repeat: no-repeat;
