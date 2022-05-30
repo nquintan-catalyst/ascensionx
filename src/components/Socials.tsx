@@ -15,7 +15,7 @@ const Socials: React.FC = () => {
       whileHover={{ 
         rotate: [0, 10,  -10, 0],
       }} 
-      href="https://discord.gg/M5AbE6VX"
+      href="https://discord.gg/wDxuxCaRaE"
       target="_blank"
       rel="noreferrer">
         <FaDiscord />
