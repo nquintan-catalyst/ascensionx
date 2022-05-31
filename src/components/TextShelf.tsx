@@ -7,7 +7,7 @@ const List: React.FC<ListProps> = ({ desc }) => {
     <div>
       {desc.map((item: any, index: any) => (
        <div>
-         <input type="checkbox" id={index} disabled={true} />
+         <input type="checkbox" id={index} disabled={true} checked={false} />
          <label htmlFor={index}>{item}</label>
        </div>
       ))}
