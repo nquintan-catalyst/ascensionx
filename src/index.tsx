@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Buy from "./components/Buy";
+import Whitepaper from "./components/Whitepaper";
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path="/ascensionx" element={<App />} />
         <Route path="/ascensionx/buy" element={<Buy />} />
+        <Route path="/ascensionx/whitepaper" element={<Whitepaper />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

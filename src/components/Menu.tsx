@@ -8,7 +8,7 @@ const Manu: React.FC = () => {
         <a href="/ascensionx/buy">Buy $ASCN</a>
       </li>
       <li className="menu__item">
-        <a href="#1">link</a>
+        <a href="/ascensionx/whitepaper">Whitepaper</a>
       </li>
     </nav>
   );
