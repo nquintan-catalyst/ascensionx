@@ -15,21 +15,21 @@ const Whitepaper: React.FC = () => {
   return(
     <div>
       <Header />
-      <h1>Whitepaper vX.X</h1>
+      <h1>Whitepaper v6.0</h1>
 
       <Tabs value={value} onChange={handleChange}>
-        <Tab label="Summary" />
-        <Tab label="Mission"  />
-        <Tab label="Roadmap" />
-        <Tab label="Game Fundamentals" />
-        <Tab label="Tokenomics"  />
-        <Tab label="Community" />
-        <Tab label="Teams" />
-        <Tab label="Support"  />
-        <Tab label="Trusted Links" />
+        <Tab label="Summary" href="#summary"/>
+        <Tab label="Mission" href="#mission" />
+        <Tab label="Roadmap" href="#roadmap"/>
+        <Tab label="Game Fundamentals" href="#fundamentals" />
+        <Tab label="Tokenomics" href="#tokenomics" />
+        <Tab label="Community" href="#community" />
+        <Tab label="Teams" href="#teams" />
+        <Tab label="Support" href="#support" />
+        <Tab label="Trusted Links" href="#links" />
       </Tabs>
 
-      <h2>Ascension Ecoverse Summary:</h2>
+      <h2 id="summary">Ascension Ecoverse Summary:</h2>
       <p>
         Ascension Ecoverse is a play-to-own crypto game that combines real-time strategy game mechanics with the power of the blockchain, ensuring that everything you collect, craft, and discover is stored on the Polygon blockchain. Throughout the course of the game, players will work their way from harvesting the resources on their individual islands to working together to building the cities and technologies of the future.
       </p>
@@ -39,14 +39,14 @@ const Whitepaper: React.FC = () => {
 
 
 
-      <h2>Our Mission:</h2>
+      <h2 id="mission">Our Mission:</h2>
       <p>
         At the core of this project are innovators that have a love for gaming, the blockchain, and environmental sustainability. Throughout the development of the Ascension project, we’re aiming to create a purpose-driven game – one that serves to educate and inform players of ways to improve the sustainability of our ecosystems, all while providing a high-level play-to-own gaming experience. We know that this is a tough task, but we believe that our project could be the start of something much larger – a true blockchain revolution in every industry, with sustainability at its forefront.
       </p>
 
 
 
-      <h2>Roadmap</h2>
+      <h2 id="roadmap">Roadmap</h2>
       <p>
         In a rapidly growing market like blockchain gaming, we need to be ready to adapt at any moment. Accordingly, as the Ascension team shoots for new heights within the world of cryptocurrency, this roadmap will be updated regularly to reflect the goals, achievements, aspirations, and visions for the future of the Ascension token, game, and ecosystem.
       </p>
@@ -131,7 +131,7 @@ const Whitepaper: React.FC = () => {
 
 
 
-      <h2>Game Fundamentals: </h2>
+      <h2 id="fundamentals">Game Fundamentals: </h2>
       <h3>Islands:</h3>
       <p>
         The Ascension Island NFTs are a core game mechanic that greatly impacts how each player’s gameplay. It should be noted that in order to play Ascension Ecoverse, players will need to purchase an Island NFT, either in a drop or via the secondary market. The islands will impact each player’s game experience in two distinct ways.
@@ -556,7 +556,7 @@ const Whitepaper: React.FC = () => {
 
 
 
-      <h2>Tokenomices</h2>
+      <h2 id="tokenomics">Tokenomices</h2>
       <h3>The $ASCN Token:</h3>
       <p>
         The $ASCN token is the driving force behind this entire project, as it acts as the in-game token for the Ascension Ecoverse game, as well as the token for our IDO. The $ASCN token is hosted on the Polygon network, due to several benefits that the Polygon network provides. We want to ensure that the game is an enjoyable experience for each and every player, and we believe that Polygon is the best place to create it.
@@ -777,7 +777,7 @@ const Whitepaper: React.FC = () => {
         </p>
 
 
-      <h2>Community</h2>
+      <h2 id="community">Community</h2>
       <p>
         Since the start of the Ascension project, one of our goals has been to build a community that is as passionate as we are about the project. We’ve implemented several initiatives to accomplish this goal, including:
       </p>
@@ -788,7 +788,7 @@ const Whitepaper: React.FC = () => {
         <li>Project Discussions: As much as the Ascension team is passionate about the game we are creating, the people that are playing the game are members of the community. As a result, the Ascension team plans to discuss any big changes to the Ascension Ecoverse game or goals within the Ascension project itself with the community before making a final decision. We believe that every action we take should have a positive effect on those who play the Ascension Ecoverse game, as well as $ASCN token and Ascension Land NFT holders, and as a development team, we will take the necessary steps to ensure that the community is involved in major project decision we make.</li>
       </ul>
 
-      <h2>Team</h2>
+      <h2 id="team">Team</h2>
       <p>
         Although this section outlines the contributions and achievements of the founding team members, the Ascension project would be nothing without the game developers, marketing professionals, artists, and customer support staff working behind the scenes!
       </p>
@@ -810,7 +810,7 @@ const Whitepaper: React.FC = () => {
 
 
 
-      <h2>Support</h2>
+      <h2 id="support">Support</h2>
       <p>
         Disclaimer: Please be aware of the fact that the Ascension Support Team will never reach out to you first in any capacity. If you receive an unsolicited message from anyone claiming to be part of our support team, it is highly likely that it is a scam. Please report the message to a trusted Ascension Team Member and do not click any links contained in the message.
       </p>
@@ -829,7 +829,7 @@ const Whitepaper: React.FC = () => {
 
 
 
-      <h2>Trusted Links:</h2>
+      <h2 id="links">Trusted Links:</h2>
       <p>
         Due to the prevalence of scams in the cryptocurrency community, we have decided to house all of our trusted links in the whitepaper. If the link cannot be found here, it is almost certainly a phishing scam. Please use these links to redirect yourself to your intended destination if you are uncertain of the exact website address or social media account name.
       </p>
