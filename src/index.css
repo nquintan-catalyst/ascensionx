@@ -548,7 +548,7 @@ footer {
 
 .whitepaper-tabs--item {
   white-space: nowrap;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .whitepaper-tabs--item--dropdown {
@@ -556,7 +556,7 @@ footer {
 }
 
 .whitepaper-tabs--item:hover {
-  background-color: rgba(124, 124, 124, 0.5);
+  background-color: rgba(124, 124, 124, 0.75);
 }
 
 .whitepaper-tabs--item:hover .whitepaper-tabs--item--dropdown {
@@ -575,5 +575,9 @@ footer {
 
 .whitepaper h1, .whitepaper h2 {
   text-align: center;
+}
+
+.whitepaper h1 {
+  padding-bottom: 2rem;
 }
 /*# sourceMappingURL=index.css.map */

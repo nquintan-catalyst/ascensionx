@@ -452,13 +452,13 @@ footer {
 
   &--item{
     white-space: nowrap;
-    padding: 1rem;
+    padding: 0.5rem;
     &--dropdown {
       display: none;
     }
   }
   &--item:hover {
-    background-color: rgba(124, 124, 124, 0.5);
+    background-color: rgba(124, 124, 124, 0.75);
   }
   &--item:hover &--item--dropdown{
     display: flex;
@@ -472,5 +472,8 @@ footer {
 .whitepaper {
   h1, h2 {
     text-align: center;
+  }
+  h1 {
+    padding-bottom: 2rem;
   }
 }
