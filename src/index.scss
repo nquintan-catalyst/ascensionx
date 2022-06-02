@@ -443,7 +443,7 @@ footer {
   position: sticky;
   top: 0rem;
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 2rem;
+  border-radius: 1rem;
 
   display: flex;
   flex-direction: row;
@@ -452,7 +452,7 @@ footer {
 
   &--item{
     white-space: nowrap;
-    padding: 2rem;
+    padding: 1rem;
     &--dropdown {
       display: none;
     }
