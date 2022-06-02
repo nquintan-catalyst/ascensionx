@@ -534,6 +534,42 @@ footer {
   position: sticky;
   top: 0rem;
   background-color: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  overflow-x: scroll;
+}
+
+.whitepaper-tabs--item {
+  white-space: nowrap;
+  padding: 1rem;
+}
+
+.whitepaper-tabs--item--dropdown {
+  display: none;
+}
+
+.whitepaper-tabs--item:hover {
+  background-color: rgba(124, 124, 124, 0.5);
+}
+
+.whitepaper-tabs--item:hover .whitepaper-tabs--item--dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.whitepaper-tabs--item--dropdown {
+  list-style: circle;
 }
 
 .whitepaper h1, .whitepaper h2 {

@@ -1,23 +1,23 @@
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
+// import Tabs from '@mui/material/Tabs';
+// import Tab from '@mui/material/Tab';
 import Header from "./Header";
-import { useState } from "react";
+// import { useState } from "react";
 import diagram from "../images/diagram.png";
 
 const Whitepaper: React.FC = () => {
 
-  const [value, setValue] = useState(0);
+  /*const [value, setValue] = useState(0);
 
   const handleChange = (event: any, newValue: number) => {
     setValue(newValue);
-  };
+  };*/
 
   return(
     <div className="whitepaper">
       <Header />
       <h1>Whitepaper v1.0</h1>
 
-      <Tabs
+      {/*<Tabs
         value={value}
         onChange={handleChange}
         variant="scrollable"
@@ -27,13 +27,119 @@ const Whitepaper: React.FC = () => {
         <Tab label="Summary" href="#summary"/>
         <Tab label="Mission" href="#mission" />
         <Tab label="Roadmap" href="#roadmap"/>
-        <Tab label="Game Fundamentals" href="#fundamentals" />
+        <div className="tab-dropdown">
+          <Tab label="Game Fundamentals" href="#fundamentals" />
+          <div className="tab-dropdown--content">
+            <a href="#">Islands</a>
+            <a href="#">Resouces Harvesting</a>
+            <a href="#">Crafting</a>
+            <a href="#">Vendor</a>
+            <a href="#">World Pollution Bar</a>
+            <a href="#">Banking</a>
+            <a href="#">External Sales/Trading</a>
+          </div>
+        </div>
         <Tab label="Tokenomics" href="#tokenomics" />
         <Tab label="Community" href="#community" />
         <Tab label="Teams" href="#team" />
         <Tab label="Support" href="#support" />
         <Tab label="Trusted Links" href="#links" />
-      </Tabs>
+  </Tabs>*/}
+      
+      <nav className="whitepaper-tabs">
+
+        <li className="whitepaper-tabs--item">
+          <a href="#summary">Summary</a>
+        </li>
+
+        <li className="whitepaper-tabs--item">
+          <a href="#mission">Mission</a>
+        </li>
+
+        <li className="whitepaper-tabs--item">
+          <a href="#roadmap">Roadmap</a>
+          <div className="whitepaper-tabs--item--dropdown">
+            <li>
+              <a href="#ancestral">Ancestral Stage</a>
+            </li>
+            <li>
+              <a href="#evolved">Evolved Stage</a>
+            </li>
+            <li>
+              <a href="#ascended">Ascended Stage</a>
+            </li>
+          </div>
+        </li>
+
+        <li className="whitepaper-tabs--item">
+          <a href="#fundamentals">Game Fundamentals</a>
+          <div className="whitepaper-tabs--item--dropdown">
+            <li>
+              <a href="#islands">Islands</a>
+            </li>
+            <li>
+              <a href="#harvesting">Resouces Harvesting</a>
+            </li>
+            <li>
+              <a href="#crafting">Crafting</a>
+            </li>
+            <li>
+              <a href="#vendor">Vendor</a>
+            </li>
+            <li>
+              <a href="#wpb">World Pollution Bar</a>
+            </li>
+            <li>
+              <a href="#banking">Banking</a>
+            </li>
+            <li>
+              <a href="#trading">External Sales/Trading</a>
+            </li>
+          </div>
+        </li>
+
+        <li className="whitepaper-tabs--item">
+          <a href="#tokenomics">Tokenomics</a>
+          <div className="whitepaper-tabs--item--dropdown">
+            <li>
+              <a href="#token">$ASCN Token</a>
+            </li>
+            <li>
+              <a href="#chains">Plasma Chains</a>
+            </li>
+            <li>
+              <a href="#distribution">Token Distribution</a>
+            </li>
+            <li>
+              <a href="#launch">Launch Tokenomics</a>
+            </li>
+            <li>
+              <a href="#balancing">In-Game Balancing</a>
+            </li>
+            <li>
+              <a href="#fees">Fees</a>
+            </li>
+          </div>
+        </li>
+
+        <li className="whitepaper-tabs--item">
+          <a href="#community">Community</a>
+        </li>
+
+        <li className="whitepaper-tabs--item">
+          <a href="#team">Teams</a>
+        </li>
+
+        <li className="whitepaper-tabs--item">
+          <a href="#support">Support</a>
+        </li>
+
+        <li className="whitepaper-tabs--item">
+          <a href="#links">Trusted Links</a>
+        </li>
+
+      </nav>
+
 
       <h2 id="summary">Ascension Ecoverse Summary:</h2>
       <p>
@@ -59,7 +165,7 @@ const Whitepaper: React.FC = () => {
       <p>
         Last Updated: April 7th, 2022 
       </p>
-      <h3>Ancestral Stage:</h3>
+      <h3 id="ancestral">Ancestral Stage:</h3>
       <p>
         The Ancestral Stage marks the beginning of the Ascension project, and thus, contains the necessary steps to cement Ascension as a long-term project in the cryptocurrency space. The steps taken in the Ancestral Stage are as follows: 
       </p>
@@ -79,7 +185,7 @@ const Whitepaper: React.FC = () => {
         The final steps in the Ancestral Stage are focused on the development of the Ascension Ecoverse game itself. All of the work to establish blockchain product offerings and develop a community is worthless without the use case that we aim to provide. By revealing sneak peeks and videos of the gameplay mechanics and following it up with our Ascension Ecoverse game demo, we guarantee a long-term use case for our products and solidify the Ascension project in the world of crypto.
       </p>
 
-      <h3>Evolved Stage:</h3>
+      <h3 id="evolved">Evolved Stage:</h3>
       <p>
         The Evolved Stage represents the midpoint of the Ascension project, where we continue to strive to build out exciting new game mechanics and foster an even larger project community to prepare for the game launch of a lifetime!
       </p>
@@ -108,7 +214,7 @@ const Whitepaper: React.FC = () => {
         As always, this is a gaming project, which means that we’re constantly making changes to improve the game and the player experience at every chance we get. During the Evolved Stage, we’ll roll out quests for the game demo, helping players obtain even more value from their gameplay experience. Alongside quests, we’ll be launching several NFT initiatives that will add to the complexity of the game ecosystem and the overall player experience. We’ll be building out an in-house NFT marketplace to improve the buying and selling experience for players looking to profit off their creations, as well as dropping NFTs that make in-game actions even easier than before. Additionally, the Ascension team will be launching a whole new series of land NFTs with new traits! This is something that the team is really excited about, as it will add complexity and a whole new variety of gameplay strategies to the Ascension Ecoverse. Finally, we’ll be releasing the beta of the Ascension Ecoverse game, which will allow a limited number of players to act as beta testers, where they’ll get off their island and explore the Ascension Ecoverse.
       </p>
 
-      <h3>Ascended Stage:</h3>
+      <h3 id="ascended">Ascended Stage:</h3>
       <p>
         The Ascended Stage signifies the point where the project reaches its greatest heights and then breaks past them. At this point in the project, we’ll be working to further decentralize the Ascension Ecoverse game, while actively looking to expand the Ascension ecosystem in a manner that contributes to the planet’s environment.
       </p>
@@ -138,7 +244,7 @@ const Whitepaper: React.FC = () => {
 
 
       <h2 id="fundamentals">Game Fundamentals: </h2>
-      <h3>Islands:</h3>
+      <h3 id="islands">Islands:</h3>
       <p>
         The Ascension Island NFTs are a core game mechanic that greatly impacts how each player’s gameplay. It should be noted that in order to play Ascension Ecoverse, players will need to purchase an Island NFT, either in a drop or via the secondary market. The islands will impact each player’s game experience in two distinct ways.
       </p>
@@ -210,7 +316,7 @@ const Whitepaper: React.FC = () => {
       <p>
         Additionally, these island traits are only available for Series 1 Ascension Land NFTs, meaning that once the Series 1 NFTs have all been minted, these traits will no longer be available in upcoming NFT releases. This decision was made to reward the initial adopters of the project, and to create a variety of different playstyles and strategies with the upcoming traits in the Series 2 release!
       </p>
-      <h3>Resource Harvesting:</h3>
+      <h3 id="harvesting">Resource Harvesting:</h3>
       <p>
         Everyone knows that in order to successfully complete your journey to ascension, you need to harvest resources to craft tools and generate income!
       </p>
@@ -345,7 +451,7 @@ const Whitepaper: React.FC = () => {
           <td>32 Minutes</td>
         </tr>
       </table>
-      <h3>Crafting:</h3>
+      <h3 id="crafting">Crafting:</h3>
       <p>
         Once you’ve harvested resources, use them to craft items that you can use to boost your in-game processes, or sell/trade them for profit!
       </p>
@@ -438,7 +544,7 @@ const Whitepaper: React.FC = () => {
       <p>
         Currently, the items that can be crafted in are limited, but the list will be updated with each in-game resource update, resulting in larger numbers of crafting combinations and items.
       </p>
-      <h3>The Vendor:</h3>
+      <h3 id="vendor">The Vendor:</h3>
       <p>
         Looking to cash out on your latest crop harvest, or want to reinvest some of your profits? The Vendor is your island’s go-to for buying and selling resources!
       </p>
@@ -513,7 +619,7 @@ const Whitepaper: React.FC = () => {
       <p>
         Additionally, the Vendor is also capable of brokering trades with other players on your behalf, which is discussed in detail later on in the whitepaper.
       </p>
-      <h3>Worldwide Pollution Bar:</h3>
+      <h3 id="wpb">Worldwide Pollution Bar:</h3>
       <p>
         The Worldwide Pollution Bar (WPB) is a unique game mechanic that helps to set us apart from other games in the space. It helps to create a true “real-life” experience by reminding each player that their actions have consequences, as well as promoting environmentalism and environmentally friendly practices.
       </p>
@@ -524,7 +630,7 @@ const Whitepaper: React.FC = () => {
       <p>
         As a means of encouraging players to engage in environmentally friendly actions, the WPB will have adverse effects on the climate of the Ascension Ecoverse. As the level of the WPB rises, so will the temperature, making it increasingly difficult for players to plant and harvest their crops, all while increasing the likelihood of natural disasters ravaging their islands! This forces players to work collaboratively to achieve a production level that won’t raise the WPB or to adopt sustainable techniques that allow players to increase production without harming the climate.
       </p>
-      <h3>Banking:</h3>
+      <h3 id="banking">Banking:</h3>
       <p>
         The in-game banking mechanic allows players to stake their tokens for a set period of time to increase the locked liquidity of the game tokens. In exchange, the Ascension Ecoverse project provides players with large returns using a hybrid method of staking that provides stakers with rewards from both a Polygon liquidity pool and the Ascension Ecoverse project itself.
       </p>
@@ -540,7 +646,7 @@ const Whitepaper: React.FC = () => {
       <p>
         Finally, although staking $ASCN tokens at this point in time only provides those who choose to stake their tokens with a financial reward, the Ascension team is working hard to develop in-game benefits for those who stake their $ASCN tokens. As any additional use cases for staked tokens are proposed or implemented, the whitepaper will be updated accordingly.
       </p>
-      <h3>External Sales/Trading:</h3>
+      <h3 id="trading">External Sales/Trading:</h3>
       <p>
         If you’re not satisfied with what the Vendor is offering, try working with your fellow players to get the resources that you need!
       </p>
@@ -563,7 +669,7 @@ const Whitepaper: React.FC = () => {
 
 
       <h2 id="tokenomics">Tokenomics:</h2>
-      <h3>The $ASCN Token:</h3>
+      <h3 id="token">The $ASCN Token:</h3>
       <p>
         The $ASCN token is the driving force behind this entire project, as it acts as the in-game token for the Ascension Ecoverse game, as well as the token for our IDO. The $ASCN token is hosted on the Polygon network, due to several benefits that the Polygon network provides. We want to ensure that the game is an enjoyable experience for each and every player, and we believe that Polygon is the best place to create it.
       </p>
@@ -585,7 +691,7 @@ const Whitepaper: React.FC = () => {
       <p>
         Finally, although the $ASCN token is currently hosted on the Polygon network, the Ascension team has future plans to introduce cross-chain functionality to expand the access to the Ascension Ecoverse game. The exact details of which networks will be part of the expansion are unknown at this time, as they will be determined based on community recommendations and team decisions. As the Ascension team gets a clearer idea of which networks will be part of the expansion, this section of the whitepaper will be updated with additional details.
       </p>
-      <h3>Plasma Chains:</h3>
+      <h3 id="chains">Plasma Chains:</h3>
       <p>
         Another benefit of using Polygon as the blockchain behind the $ASCN token is the ability to create plasma chains, which is what the Ascension Ecoverse project uses to ensure that users’ in-game assets remain as secure as possible, without resulting in slow transaction speeds or high gas fees.
       </p>
@@ -601,7 +707,7 @@ const Whitepaper: React.FC = () => {
       <p>
         For a more detailed breakdown on plasma chains and how they work, <a href="#TODO">check out this article.</a>
       </p>
-      <h3>Token Distribution:</h3>
+      <h3 id="distribution">Token Distribution:</h3>
       <p>
         At the time of the IDO, the Ascension team will distribute 1 trillion tokens (1,000,000,000,000) among the following wallets with the following use cases:
       </p>
@@ -747,7 +853,7 @@ const Whitepaper: React.FC = () => {
         <p>
           These wallets have not yet been created at this stage of the project, and the whitepaper will be include these addresses when the wallets have been created.
         </p>
-        <h3>Launch Tokenomics:</h3>
+        <h3 id="launch">Launch Tokenomics:</h3>
         <p>
           The launch tokenomics for the $ASCN token are as follows:
         </p>
@@ -758,7 +864,7 @@ const Whitepaper: React.FC = () => {
         <p>
           This token will be launched without transaction fees, as this is a project with a legitimate long-term product in the works. As a result, we see no need to take fees on token transactions at this early stage of the Ascension Ecoverse project, due to the fact that our sights are set on the long-term outcome. At this point in time, our tokenomics are set up to provide us with the necessary funds for development and payments to employees, ensuring that the team can focus on the development of the project and the Ascension community.
         </p>
-        <h3>In-Game Balancing:</h3>
+        <h3 id="balancing">In-Game Balancing:</h3>
         <p>
           With all of the rewards that Ascension Ecoverse players earn, tokens will be minted quite frequently to keep up with demand. However, this can cause a problem for players and investors alike, as the consistent minting of tokens will result in an inflationary token. Over time, the value of the $ASCN tokens would continue to diminish as additional tokens are minted.
         </p>
@@ -768,7 +874,7 @@ const Whitepaper: React.FC = () => {
         <p>
           In short, each of the actions that a player can take in-game helps to balance the token supply. The team has worked hard to ensure that the active minting and burning of tokens results in a slightly deflationary system, ensuring that players can continue to play the game and enjoy their rewards without too much micromanagement on the part of the Ascension team.
         </p>
-        <h3>Fees:</h3>
+        <h3 id="fees">Fees:</h3>
         <p>
           To ensure that the Ascension Ecoverse game will grow at a consistent rate, a small fee similar to those charged by other projects is charged on three in-game actions, purchasing items from the Vendor, crafting items, and trading with other players. Although this may seem like a downside for players, the Ascension team felt that it was in everyone’s best interests to disclose the fees in the spirit of transparency, as these fees will be used for the continued development of the project in two different ways.
         </p>
