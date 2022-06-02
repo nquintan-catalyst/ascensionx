@@ -13,7 +13,7 @@ const Whitepaper: React.FC = () => {
   };
 
   return(
-    <div>
+    <div className="whitepaper">
       <Header />
       <h1>Whitepaper v1.0</h1>
 
