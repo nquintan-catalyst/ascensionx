@@ -528,4 +528,11 @@ footer {
 .buy p {
   max-width: calc(100vw - 6rem);
 }
+
+.whitepaper-tabs {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 /*# sourceMappingURL=index.css.map */

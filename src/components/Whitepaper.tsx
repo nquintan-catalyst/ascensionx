@@ -15,16 +15,22 @@ const Whitepaper: React.FC = () => {
   return(
     <div>
       <Header />
-      <h1>Whitepaper v6.0</h1>
+      <h1>Whitepaper v1.0</h1>
 
-      <Tabs value={value} onChange={handleChange}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        variant="scrollable"
+        scrollButtons="auto"
+        className="whitepaper-tabs"
+      >
         <Tab label="Summary" href="#summary"/>
         <Tab label="Mission" href="#mission" />
         <Tab label="Roadmap" href="#roadmap"/>
         <Tab label="Game Fundamentals" href="#fundamentals" />
         <Tab label="Tokenomics" href="#tokenomics" />
         <Tab label="Community" href="#community" />
-        <Tab label="Teams" href="#teams" />
+        <Tab label="Teams" href="#team" />
         <Tab label="Support" href="#support" />
         <Tab label="Trusted Links" href="#links" />
       </Tabs>
@@ -46,7 +52,7 @@ const Whitepaper: React.FC = () => {
 
 
 
-      <h2 id="roadmap">Roadmap</h2>
+      <h2 id="roadmap">Roadmap:</h2>
       <p>
         In a rapidly growing market like blockchain gaming, we need to be ready to adapt at any moment. Accordingly, as the Ascension team shoots for new heights within the world of cryptocurrency, this roadmap will be updated regularly to reflect the goals, achievements, aspirations, and visions for the future of the Ascension token, game, and ecosystem.
       </p>
@@ -556,7 +562,7 @@ const Whitepaper: React.FC = () => {
 
 
 
-      <h2 id="tokenomics">Tokenomices</h2>
+      <h2 id="tokenomics">Tokenomics:</h2>
       <h3>The $ASCN Token:</h3>
       <p>
         The $ASCN token is the driving force behind this entire project, as it acts as the in-game token for the Ascension Ecoverse game, as well as the token for our IDO. The $ASCN token is hosted on the Polygon network, due to several benefits that the Polygon network provides. We want to ensure that the game is an enjoyable experience for each and every player, and we believe that Polygon is the best place to create it.
@@ -777,7 +783,7 @@ const Whitepaper: React.FC = () => {
         </p>
 
 
-      <h2 id="community">Community</h2>
+      <h2 id="community">Community:</h2>
       <p>
         Since the start of the Ascension project, one of our goals has been to build a community that is as passionate as we are about the project. We’ve implemented several initiatives to accomplish this goal, including:
       </p>
@@ -788,7 +794,7 @@ const Whitepaper: React.FC = () => {
         <li>Project Discussions: As much as the Ascension team is passionate about the game we are creating, the people that are playing the game are members of the community. As a result, the Ascension team plans to discuss any big changes to the Ascension Ecoverse game or goals within the Ascension project itself with the community before making a final decision. We believe that every action we take should have a positive effect on those who play the Ascension Ecoverse game, as well as $ASCN token and Ascension Land NFT holders, and as a development team, we will take the necessary steps to ensure that the community is involved in major project decision we make.</li>
       </ul>
 
-      <h2 id="team">Team</h2>
+      <h2 id="team">Team:</h2>
       <p>
         Although this section outlines the contributions and achievements of the founding team members, the Ascension project would be nothing without the game developers, marketing professionals, artists, and customer support staff working behind the scenes!
       </p>
@@ -810,7 +816,7 @@ const Whitepaper: React.FC = () => {
 
 
 
-      <h2 id="support">Support</h2>
+      <h2 id="support">Support:</h2>
       <p>
         Disclaimer: Please be aware of the fact that the Ascension Support Team will never reach out to you first in any capacity. If you receive an unsolicited message from anyone claiming to be part of our support team, it is highly likely that it is a scam. Please report the message to a trusted Ascension Team Member and do not click any links contained in the message.
       </p>
