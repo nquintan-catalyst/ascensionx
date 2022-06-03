@@ -442,8 +442,14 @@ footer {
 .whitepaper-tabs {
   position: sticky;
   top: 0rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   border-radius: 1rem;
+  &:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  a {
+    color: #177114;
+  }
 
   display: flex;
   flex-direction: row;
@@ -457,8 +463,8 @@ footer {
       display: none;
     }
   }
-  &--item:hover {
-    background-color: rgba(124, 124, 124, 0.75);
+  &--item:hover a {
+    color: $color-primary !important;
   }
   &--item:hover &--item--dropdown{
     display: flex;

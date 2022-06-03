@@ -533,7 +533,7 @@ footer {
   position: -webkit-sticky;
   position: sticky;
   top: 0rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   border-radius: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -546,6 +546,14 @@ footer {
   overflow-x: scroll;
 }
 
+.whitepaper-tabs:hover {
+  background-color: black;
+}
+
+.whitepaper-tabs a {
+  color: #177114;
+}
+
 .whitepaper-tabs--item {
   white-space: nowrap;
   padding: 0.5rem;
@@ -555,8 +563,8 @@ footer {
   display: none;
 }
 
-.whitepaper-tabs--item:hover {
-  background-color: rgba(124, 124, 124, 0.75);
+.whitepaper-tabs--item:hover a {
+  color: #65cd3c !important;
 }
 
 .whitepaper-tabs--item:hover .whitepaper-tabs--item--dropdown {
