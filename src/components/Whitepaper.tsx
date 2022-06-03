@@ -930,13 +930,13 @@ const Whitepaper: React.FC = () => {
         If you are experiencing issues with the game or have questions about the $ASCN token, plans, goals, or community, please use one of the following links to get the appropriate assistance.
       </p>
       <p>
-        General Inquiries: <a href="https://discord.gg/M5AbE6VX">https://discord.gg/M5AbE6VX</a>
+        General Inquiries: <a href="https://discord.gg/wDxuxCaRaE">https://discord.gg/wDxuxCaRaE</a>
       </p>
       <p>
         Marketing Inquiries: <a href="mailto:ascensionecoverse@gmail.com">ascensionecoverse@gmail.com</a>
       </p>
       <p>
-        Beginner Help: <a href="https://discord.gg/M5AbE6VX ">https://discord.gg/M5AbE6VX</a>
+        Beginner Help: <a href="https://discord.gg/wDxuxCaRaE ">https://discord.gg/wDxuxCaRaE</a>
       </p>
 
 
@@ -949,7 +949,7 @@ const Whitepaper: React.FC = () => {
         Official Website: <a href="https://ascensionx.com">ascensionx.com</a>
       </p>
       <p>
-        Discord Community: <a href="https://discord.gg/M5AbE6VX">https://discord.gg/M5AbE6VX </a>
+        Discord Community: <a href="https://discord.gg/wDxuxCaRaE">https://discord.gg/wDxuxCaRaE</a>
       </p>
       <p>
         Twitter Page: <a href="https://twitter.com/ascnecoverse">https://twitter.com/ascnecoverse</a>
