@@ -588,4 +588,55 @@ footer {
 .whitepaper h1 {
   padding-bottom: 2rem;
 }
+
+.stepperButtons {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stepperContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stepperContent img {
+  max-height: 50vh;
+  max-width: 50vw;
+}
+
+.stepperContent--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.MuiStepLabel-label, .Mui-active, .Mui-completed {
+  color: #65cd3c !important;
+}
+
+.GettingStarted h1 {
+  text-align: center;
+  padding: 1.5rem;
+}
 /*# sourceMappingURL=index.css.map */

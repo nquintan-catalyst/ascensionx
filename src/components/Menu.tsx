@@ -10,6 +10,9 @@ const Manu: React.FC = () => {
       <li className="menu__item">
         <a href="/ascensionx/whitepaper">Whitepaper</a>
       </li>
+      <li className="menu__item">
+        <a href="/ascensionx/gettingStarted">Getting Started</a>
+      </li>
     </nav>
   );
 };
