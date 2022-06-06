@@ -1,50 +1,12 @@
-// import Tabs from '@mui/material/Tabs';
-// import Tab from '@mui/material/Tab';
 import Header from "./Header";
-// import { useState } from "react";
 import diagram from "../images/diagram.png";
 
 const Whitepaper: React.FC = () => {
-
-  /*const [value, setValue] = useState(0);
-
-  const handleChange = (event: any, newValue: number) => {
-    setValue(newValue);
-  };*/
 
   return(
     <div className="whitepaper">
       <Header />
       <h1>Whitepaper v1.0</h1>
-
-      {/*<Tabs
-        value={value}
-        onChange={handleChange}
-        variant="scrollable"
-        scrollButtons="auto"
-        className="whitepaper-tabs"
-      >
-        <Tab label="Summary" href="#summary"/>
-        <Tab label="Mission" href="#mission" />
-        <Tab label="Roadmap" href="#roadmap"/>
-        <div className="tab-dropdown">
-          <Tab label="Game Fundamentals" href="#fundamentals" />
-          <div className="tab-dropdown--content">
-            <a href="#">Islands</a>
-            <a href="#">Resouces Harvesting</a>
-            <a href="#">Crafting</a>
-            <a href="#">Vendor</a>
-            <a href="#">World Pollution Bar</a>
-            <a href="#">Banking</a>
-            <a href="#">External Sales/Trading</a>
-          </div>
-        </div>
-        <Tab label="Tokenomics" href="#tokenomics" />
-        <Tab label="Community" href="#community" />
-        <Tab label="Teams" href="#team" />
-        <Tab label="Support" href="#support" />
-        <Tab label="Trusted Links" href="#links" />
-  </Tabs>*/}
       
       <nav className="whitepaper-tabs">
 
