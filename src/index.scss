@@ -51,7 +51,7 @@ h3 {
 
 p {
   color: darken($color-foreground, 25%);
-  max-width: 75ch;
+  //max-width: 75ch;
 }
 
 article {
@@ -166,6 +166,7 @@ img {
 
   p {
     color: black;
+    max-width: 75ch;
   }
   a {
     color: blue;
@@ -195,6 +196,7 @@ img {
 
   p {
     color: black;
+    max-width: 75ch;
   }
   a {
     color: blue;
@@ -370,6 +372,7 @@ img {
     p {
       color: white;
       font-size: large;
+      max-width: 75ch;
     }
     &--text {
       padding-left: 1rem;

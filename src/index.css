@@ -47,7 +47,6 @@ h3 {
 
 p {
   color: #bababa;
-  max-width: 75ch;
 }
 
 article {
@@ -191,6 +190,7 @@ img {
 
 .contentContainer--right p {
   color: black;
+  max-width: 75ch;
 }
 
 .contentContainer--right a {
@@ -229,6 +229,7 @@ img {
 
 .contentContainer--left p {
   color: black;
+  max-width: 75ch;
 }
 
 .contentContainer--left a {
@@ -455,6 +456,7 @@ img {
 .media-modal--container p {
   color: white;
   font-size: large;
+  max-width: 75ch;
 }
 
 .media-modal--container--text {
