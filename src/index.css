@@ -239,6 +239,10 @@ img {
   display: -ms-grid;
   display: grid;
   grid-gap: 64px;
+  background-image: url("./images/MicrosoftTeams-image.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat-y;
 }
 
 .banner {
