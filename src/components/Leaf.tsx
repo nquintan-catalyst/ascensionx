@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
+import { Parallax } from 'react-scroll-parallax'; 
 
 type LeafProps = {
     side: "Left" | "Right";
@@ -8,7 +9,9 @@ type LeafProps = {
 
 const Leaf: React.FC<LeafProps> = ({children, side}) => {
 
-    if (side === "Left") {
+    const speed = Math.floor(Math.random() * 10) + 10;
+
+    /* if (side === "Left") {
         return(
             <motion.div
             initial={{ y: 300 }}
@@ -29,6 +32,23 @@ const Leaf: React.FC<LeafProps> = ({children, side}) => {
             className="contentContainer--right">
                 {children}
             </motion.div>
+        );
+    } */
+    if (side === "Left") {
+        return(
+            <Parallax
+            speed={speed}
+            className="contentContainer--left">
+                {children}
+            </Parallax>
+        );
+    } else {
+        return(
+            <Parallax
+            speed={speed}
+            className="contentContainer--right">
+                {children}
+            </Parallax>
         );
     }
 };

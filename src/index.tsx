@@ -7,20 +7,23 @@ import Whitepaper from "./components/Whitepaper";
 import GettingStarted from "./components/GettingStarted";
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/ascensionx" element={<App />} />
-        <Route path="/ascensionx/buy" element={<Buy />} />
-        <Route path="/ascensionx/whitepaper" element={<Whitepaper />} />
-        <Route path="/ascensionx/gettingStarted" element={<GettingStarted />} />
-      </Routes>
-    </BrowserRouter>
+    <ParallaxProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/ascensionx" element={<App />} />
+          <Route path="/ascensionx/buy" element={<Buy />} />
+          <Route path="/ascensionx/whitepaper" element={<Whitepaper />} />
+          <Route path="/ascensionx/gettingStarted" element={<GettingStarted />} />
+        </Routes>
+      </BrowserRouter>
+    </ParallaxProvider>
   </React.StrictMode>
 );
 
