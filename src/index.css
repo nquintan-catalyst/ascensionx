@@ -170,6 +170,11 @@ img {
   gap: 32px;
 }
 
+.menu a {
+  background-color: #65cd3c;
+  color: white;
+}
+
 .contentContainer--right {
   background-image: url("./images/Patrick1Right.png");
   background-position: right;
