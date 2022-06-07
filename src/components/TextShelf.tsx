@@ -35,7 +35,12 @@ const TextShelf: React.FC<TextShelfProps> = ({ media }) => {
           <li key={key} className="media-shelf--item">
             <figure>
               {headshot && <img src={headshot} alt="headshot" />}
-              <h2>{name} {" "} {linkedin && <BsLinkedin onClick={()=>window.open(linkedin, "_blank")}/>}</h2>
+              <h2>
+                {name}{" "}
+                {linkedin && (
+                  <BsLinkedin onClick={() => window.open(linkedin, "_blank")} />
+                )}
+              </h2>
               {typeof desc === "string" ? <p>{desc}</p> : <List desc={desc} />}
             </figure>
           </li>

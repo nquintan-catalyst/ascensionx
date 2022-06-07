@@ -33,7 +33,7 @@ const Tokenomics: React.FC = () => {
                 font: {
                   size: 17,
                 },
-                color: 'white',
+                color: "white",
               },
             },
           },

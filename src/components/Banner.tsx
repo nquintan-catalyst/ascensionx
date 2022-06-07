@@ -9,8 +9,8 @@ const Banner: React.FC = () => {
           The Collaborative Digital World of the Future
         </p>
       </div>
-      <video className='videoTag' autoPlay loop muted>
-        <source src={MarsVideo} type='video/mp4' />
+      <video className="videoTag" autoPlay loop muted>
+        <source src={MarsVideo} type="video/mp4" />
       </video>
     </div>
   );
