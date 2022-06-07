@@ -1,4 +1,4 @@
-const Manu: React.FC = () => {
+const Menu: React.FC = () => {
   return (
     <nav className="menu">
       <li className="menu__item">
@@ -17,4 +17,4 @@ const Manu: React.FC = () => {
   );
 };
 
-export default Manu;
+export default Menu;

@@ -39,7 +39,7 @@ const Whitepaper: React.FC = () => {
                 <a href="#islands">Islands</a>
               </li>
               <li>
-                <a href="#harvesting">Resouces Harvesting</a>
+                <a href="#harvesting">Resource Harvesting</a>
               </li>
               <li>
                 <a href="#crafting">Crafting</a>
@@ -504,7 +504,7 @@ const Whitepaper: React.FC = () => {
             <td>Grass</td>
             <td>30 Seconds</td>
             <td>2 Minutes & 30 Minutes</td>
-            <td>Scytde</td>
+            <td>Scythe</td>
             <td>10 Seconds</td>
             <td>50 Seconds</td>
           </tr>
@@ -513,7 +513,7 @@ const Whitepaper: React.FC = () => {
             <td>Seeds</td>
             <td>30 Seconds</td>
             <td>19 Minutes & 30 Seconds</td>
-            <td>Scytde</td>
+            <td>Scythe</td>
             <td>10 Seconds</td>
             <td>6 Minutes & 30 Seconds</td>
           </tr>
@@ -558,7 +558,7 @@ const Whitepaper: React.FC = () => {
             <td>Wheat</td>
             <td>5 Minutes</td>
             <td>20 Minutes</td>
-            <td>Scytde</td>
+            <td>Scythe</td>
             <td>1 Minute & 40 Seconds</td>
             <td>6 Minutes & 40 Seconds</td>
           </tr>
@@ -614,7 +614,7 @@ const Whitepaper: React.FC = () => {
         <table>
           <tr>
             <th>Crafted Item</th>
-            <th>Required Resouces</th>
+            <th>Required Resources</th>
             <th>Crafting Fee (in $ASCN tokens)</th>
             <th>Crafting Time</th>
           </tr>
