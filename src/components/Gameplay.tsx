@@ -1,7 +1,5 @@
 import Leaf from "./Leaf";
 import MediaShelf from "./MediaShelf";
-import tornado from "../images/tornado.gif";
-import { motion } from "framer-motion";
 
 const Gameplay: React.FC = () => {
   return (
