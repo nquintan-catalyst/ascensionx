@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
   //margin: 16px auto;
   //padding: 16px 32px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -27,11 +27,16 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1;
   margin: 0;
 }
@@ -89,7 +94,8 @@ table {
     color: darken($color-foreground, 40%);
     font-size: 14px;
   }
-  td, th {
+  td,
+  th {
     padding: 16px;
     min-width: 20ch;
     text-align: left;
@@ -285,7 +291,8 @@ img {
     height: 100%;
     width: 32px;
     background: linear-gradient(
-      90deg, transparentize($color-background, .5),
+      90deg,
+      transparentize($color-background, 0.5),
       transparentize($color-background, 1)
     );
     position: absolute;
@@ -297,7 +304,8 @@ img {
     height: 100%;
     width: 32px;
     background: linear-gradient(
-      270deg, transparentize($color-background, .5),
+      270deg,
+      transparentize($color-background, 0.5),
       transparentize($color-background, 1)
     );
     position: absolute;
@@ -362,7 +370,7 @@ img {
     align-items: center;
     flex-direction: row;
     h1 {
-      text-transform: capitalize; 
+      text-transform: capitalize;
     }
     button {
       background-color: $color-primary;
@@ -427,8 +435,8 @@ footer {
 }
 
 .gameImage {
-  max-width:3072px;
-  max-height:2046px;
+  max-width: 3072px;
+  max-height: 2046px;
   width: 100%;
 
   background-image: url("./images/gameScreenshot1.jpeg");
@@ -468,7 +476,7 @@ footer {
   list-style: none;
   overflow-x: scroll;
 
-  &--item{
+  &--item {
     white-space: nowrap;
     padding: 0.5rem;
     &--dropdown {
@@ -478,17 +486,18 @@ footer {
   &--item:hover a {
     color: $color-primary !important;
   }
-  &--item:hover &--item--dropdown{
+  &--item:hover &--item--dropdown {
     display: flex;
     flex-direction: column;
   }
   &--item--dropdown {
-    list-style:circle;
+    list-style: circle;
   }
 }
 
 .whitepaper {
-  h1, h2 {
+  h1,
+  h2 {
     text-align: center;
   }
   h1 {
@@ -517,7 +526,9 @@ footer {
   }
 }
 
-.MuiStepLabel-label, .Mui-active, .Mui-completed {
+.MuiStepLabel-label,
+.Mui-active,
+.Mui-completed {
   color: $color-primary !important;
 }
 

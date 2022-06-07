@@ -1,4 +1,4 @@
-import Modal from '@mui/material/Modal';
+import Modal from "@mui/material/Modal";
 import { useState } from "react";
 import { GrClose } from "react-icons/gr";
 import getText from "./IslandInfo";
@@ -6,13 +6,12 @@ import getText from "./IslandInfo";
 type MediaItemProps = {
   imageUrl: any;
   caption: any;
-}
+};
 
 const MediaItem: React.FC<MediaItemProps> = ({ imageUrl, caption }) => {
-  
   const [open, setOpen] = useState(false);
 
-  return(
+  return (
     <>
       <li key={`${caption}-${imageUrl}`} className="media-shelf--item">
         <figure>
@@ -20,17 +19,20 @@ const MediaItem: React.FC<MediaItemProps> = ({ imageUrl, caption }) => {
             <img src={`/ascensionx/${imageUrl}`} alt={caption} loading="lazy" />
           </picture>
           <figcaption>{caption}</figcaption>
-          <button onClick={()=>{setOpen(!open)}}>Learn More</button>
+          <button
+            onClick={() => {
+              setOpen(!open);
+            }}
+          >
+            Learn More
+          </button>
         </figure>
       </li>
 
-      <Modal
-       open={open}
-       onClose={()=>setOpen(false)}
-      >
+      <Modal open={open} onClose={() => setOpen(false)}>
         <div className="media-modal">
           <div className="media-modal--container">
-            <button onClick={()=>setOpen(false)}>
+            <button onClick={() => setOpen(false)}>
               <GrClose />
             </button>
 
@@ -38,17 +40,14 @@ const MediaItem: React.FC<MediaItemProps> = ({ imageUrl, caption }) => {
 
             <div className="media-modal--container--text">
               <h1>{caption}</h1>
-              <p>
-                {getText(caption)}
-              </p>
+              <p>{getText(caption)}</p>
             </div>
           </div>
         </div>
       </Modal>
     </>
   );
-
-}
+};
 
 type MediaShelfProps = {
   media: { imageUrl: string; caption: string }[];

@@ -4,55 +4,58 @@ import tornado from "../images/tornado.gif";
 import { motion } from "framer-motion";
 
 const Gameplay: React.FC = () => {
-    return(
+  return (
     <>
       <Leaf side="Left">
         <h1>About Polygon</h1>
         <p>
-        The $ASCN token is hosted on the Polygon network, which provides several key benefits for the development of the Ascension Ecoverse project.
-        With plasma chain capabilities for in-game transactions alongside speed, security, and low gas fees, 
-        the Polygon network is the perfect home for the $ASCN token and Ascension Ecoverse game.
+          The $ASCN token is hosted on the Polygon network, which provides
+          several key benefits for the development of the Ascension Ecoverse
+          project. With plasma chain capabilities for in-game transactions
+          alongside speed, security, and low gas fees, the Polygon network is
+          the perfect home for the $ASCN token and Ascension Ecoverse game.
         </p>
       </Leaf>
       <Leaf side="Right">
         <h1>Gameplay</h1>
         <h2>Start On Your Island!</h2>
         <p>
-          Your Ascension Ecoverse journey starts on the Ascension Island NFT that you will call home. 
-          These islands contain all the resources and systems that you need to kickstart your journey, and if you’re lucky, some might even come with special traits that give you an in-game boost! 
-          Learn more about islands below.
+          Your Ascension Ecoverse journey starts on the Ascension Island NFT
+          that you will call home. These islands contain all the resources and
+          systems that you need to kickstart your journey, and if you’re lucky,
+          some might even come with special traits that give you an in-game
+          boost! Learn more about islands below.
         </p>
-          
       </Leaf>
-        <MediaShelf
-          media={[
-            {
-              imageUrl: "/images/island-forest.png",
-              caption: "forest",
-            },
-            {
-              imageUrl: "/images/island-quarry.png",
-              caption: "quarry",
-            },
-            {
-              imageUrl: "/images/island-wetland.png",
-              caption: "wetlands",
-            },
-            {
-              imageUrl: "/images/island-lake.png",
-              caption: "lakeside",
-            },
-            {
-              imageUrl: "/images/island-mine.png",
-              caption: "mine",
-            },
-            {
-              imageUrl: "/images/island-oil.png",
-              caption: "oil fields",
-            },
-          ]}
-        />
-        <Leaf side="Left">
+      <MediaShelf
+        media={[
+          {
+            imageUrl: "/images/island-forest.png",
+            caption: "forest",
+          },
+          {
+            imageUrl: "/images/island-quarry.png",
+            caption: "quarry",
+          },
+          {
+            imageUrl: "/images/island-wetland.png",
+            caption: "wetlands",
+          },
+          {
+            imageUrl: "/images/island-lake.png",
+            caption: "lakeside",
+          },
+          {
+            imageUrl: "/images/island-mine.png",
+            caption: "mine",
+          },
+          {
+            imageUrl: "/images/island-oil.png",
+            caption: "oil fields",
+          },
+        ]}
+      />
+      <Leaf side="Left">
         <h2>Harvest, Craft, and Sell Your Way to Success!</h2>
         <p>
           Every resource on your island can be harvested, and either crafted
@@ -66,27 +69,31 @@ const Gameplay: React.FC = () => {
         <h2>Watch and Mitigate the World Pollution Bar!</h2>
         <p>
           Just like in real life, every action you take has repercussions, and
-          these repercussions are reflected on the World Pollution Bar (WPB). Climate-friendly
-          actions will lower the WPB, while unsustainable actions will raise the
-          WPB, keeping environmentalism at the top of players' minds at all
-          times. Just remember, as the WPB rises, the entire Ecoverse will be
-          completely reshaped! Storms, rising water levels, temperature changes,
-          and other environmental disasters will make it harder and harder to
-          harvest the resources you need to survive.{" "}
-          <a href="#whitepaper">Learn more about the World Pollution Bar here</a>.
+          these repercussions are reflected on the World Pollution Bar (WPB).
+          Climate-friendly actions will lower the WPB, while unsustainable
+          actions will raise the WPB, keeping environmentalism at the top of
+          players' minds at all times. Just remember, as the WPB rises, the
+          entire Ecoverse will be completely reshaped! Storms, rising water
+          levels, temperature changes, and other environmental disasters will
+          make it harder and harder to harvest the resources you need to
+          survive.{" "}
+          <a href="#whitepaper">
+            Learn more about the World Pollution Bar here
+          </a>
+          .
         </p>
-        </Leaf>
-        <div className="gameImage">
-          <motion.img
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 2 }}
-            viewport={{ once: true }}
-            src={tornado}
-            alt="thing"
-          />
-        </div>
-        <Leaf side="Right">
+      </Leaf>
+      <div className="gameImage">
+        <motion.img
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 2 }}
+          viewport={{ once: true }}
+          src={tornado}
+          alt="thing"
+        />
+      </div>
+      <Leaf side="Right">
         <h2>Earn Returns From the Bank!</h2>
         <p>
           Looking for a way to earn additional returns while you play? Lock up
@@ -102,13 +109,16 @@ const Gameplay: React.FC = () => {
           anything and everything, as each resource, crafted item, and island
           that you own is stored on the blockchain as an NFT! Plus, use the
           unique Ascension trading mechanism to swap resources with other
-          players, and combine trading and sales to
-          create unique and profitable strategies!{" "}
-          <a href="whitepaper">Learn more about external sales and trading here</a>.
+          players, and combine trading and sales to create unique and profitable
+          strategies!{" "}
+          <a href="whitepaper">
+            Learn more about external sales and trading here
+          </a>
+          .
         </p>
-        </Leaf>
+      </Leaf>
     </>
-    );
+  );
 };
 
 export default Gameplay;

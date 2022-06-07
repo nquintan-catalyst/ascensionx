@@ -48,9 +48,7 @@ function App() {
             <Countdown />
           </article>
 
-          <footer>
-            © 2022.
-          </footer>
+          <footer>© 2022.</footer>
         </div>
       </main>
     </div>
