@@ -1,3 +1,5 @@
+import { BsLinkedin } from "react-icons/bs";
+
 type ListProps = {
   desc: String[];
 };
@@ -21,6 +23,7 @@ type TextShelfProps = {
     key: number;
     desc: string | String[];
     headshot?: string;
+    linkedin?: string;
   }[];
 };
 
@@ -28,11 +31,11 @@ const TextShelf: React.FC<TextShelfProps> = ({ media }) => {
   return (
     <div className="media-shelf-container">
       <ul className="media-shelf">
-        {media.map(({ name, key, desc, headshot }) => (
+        {media.map(({ name, key, desc, headshot, linkedin }) => (
           <li key={key} className="media-shelf--item">
             <figure>
               {headshot && <img src={headshot} alt="headshot" />}
-              <h2>{name}</h2>
+              <h2>{name} {" "} {linkedin && <BsLinkedin onClick={()=>window.open(linkedin, "_blank")}/>}</h2>
               {typeof desc === "string" ? <p>{desc}</p> : <List desc={desc} />}
             </figure>
           </li>
