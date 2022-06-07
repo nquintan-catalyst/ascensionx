@@ -304,11 +304,11 @@ img {
     content: "";
     height: 100%;
     width: 32px;
-    background: linear-gradient(
+    /*background: linear-gradient(
       90deg,
       transparentize($color-background, 0.5),
       transparentize($color-background, 1)
-    );
+    );*/
     position: absolute;
     top: 0;
     left: 0;
@@ -317,11 +317,11 @@ img {
     content: "";
     height: 100%;
     width: 32px;
-    background: linear-gradient(
+    /*background: linear-gradient(
       270deg,
       transparentize($color-background, 0.5),
       transparentize($color-background, 1)
-    );
+    );*/
     position: absolute;
     top: 0;
     right: 0;
@@ -356,6 +356,7 @@ img {
     padding: 10px;
     padding-bottom: 32px;
     border-radius: 4px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
   }
   & figcaption {
     text-transform: capitalize;

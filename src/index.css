@@ -364,8 +364,11 @@ img {
   content: "";
   height: 100%;
   width: 32px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /*background: linear-gradient(
+      90deg,
+      transparentize($color-background, 0.5),
+      transparentize($color-background, 1)
+    );*/
   position: absolute;
   top: 0;
   left: 0;
@@ -375,8 +378,11 @@ img {
   content: "";
   height: 100%;
   width: 32px;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /*background: linear-gradient(
+      270deg,
+      transparentize($color-background, 0.5),
+      transparentize($color-background, 1)
+    );*/
   position: absolute;
   top: 0;
   right: 0;
@@ -418,6 +424,8 @@ img {
   padding: 10px;
   padding-bottom: 32px;
   border-radius: 4px;
+  -webkit-box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .media-shelf figcaption {
