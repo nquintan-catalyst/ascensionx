@@ -250,20 +250,13 @@ img {
     font-weight: 600;
     margin: 0;
   }
-  &__image {
-    position: relative;
-    img {
-      max-height: 512px;
-      max-width: 512px;
-    }
-    .button {
-      position: absolute;
-      left: 50%;
-      bottom: 0;
-      transform: translateX(-50%);
-      box-shadow: 0 0 0 8px $color-background;
-    }
-  }
+}
+
+.videoTag {
+  max-height: 20rem;
+  max-width: calc(100vw - 4rem);
+  opacity: 0.5;
+  background-color: rgb(0, 0, 0);
 }
 
 .socials {

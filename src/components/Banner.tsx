@@ -1,3 +1,5 @@
+import MarsVideo from "../images/lush-green-mars-changing-into-a-desert-world-2022-03-14-12-11-39-utc.mp4";
+
 const Banner: React.FC = () => {
   return (
     <div className="banner">
@@ -7,12 +9,9 @@ const Banner: React.FC = () => {
           The Collaborative Digital World of the Future
         </p>
       </div>
-      <div className="banner__image">
-        <img src="/ascensionx/island1.png" alt="island" />
-        <a className="button button--cta" href="#play-now">
-          Coming Soon!
-        </a>
-      </div>
+      <video className='videoTag' autoPlay loop muted>
+        <source src={MarsVideo} type='video/mp4' />
+      </video>
     </div>
   );
 };
