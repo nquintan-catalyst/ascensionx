@@ -1,7 +1,6 @@
 import * as React from "react";
 import Header from "./Header";
 import Stepper from "@mui/material/Stepper";
-// import Typography from '@mui/material/Typography';
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
 import Button from "@mui/material/Button";
