@@ -357,12 +357,14 @@ img {
     text-transform: capitalize;
     font-weight: 600;
     font-size: 20px;
+    text-align: center;
   }
   &--item {
     width: 24rem;
   }
   button {
     background-color: $color-primary;
+    color: white;
   }
   &--list-item {
     display: list-item !important;

@@ -419,6 +419,7 @@ img {
   text-transform: capitalize;
   font-weight: 600;
   font-size: 20px;
+  text-align: center;
 }
 
 .media-shelf--item {
@@ -427,6 +428,7 @@ img {
 
 .media-shelf button {
   background-color: #65cd3c;
+  color: white;
 }
 
 .media-shelf--list-item {

@@ -2,6 +2,7 @@ import Modal from "@mui/material/Modal";
 import { useState } from "react";
 import { GrClose } from "react-icons/gr";
 import getText from "./IslandInfo";
+import Button from "@mui/material/Button";
 
 type MediaItemProps = {
   imageUrl: any;
@@ -19,22 +20,22 @@ const MediaItem: React.FC<MediaItemProps> = ({ imageUrl, caption }) => {
             <img src={`/ascensionx/${imageUrl}`} alt={caption} loading="lazy" />
           </picture>
           <figcaption>{caption}</figcaption>
-          <button
+          <Button
             onClick={() => {
               setOpen(!open);
             }}
           >
             Learn More
-          </button>
+          </Button>
         </figure>
       </li>
 
       <Modal open={open} onClose={() => setOpen(false)}>
         <div className="media-modal">
           <div className="media-modal--container">
-            <button onClick={() => setOpen(false)}>
+            <Button onClick={() => setOpen(false)}>
               <GrClose />
-            </button>
+            </Button>
 
             <img src={`/ascensionx/${imageUrl}`} alt={caption} loading="lazy" />
 

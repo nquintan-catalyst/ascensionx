@@ -4,6 +4,7 @@ import { Pie } from "react-chartjs-2";
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
 import { GrClose } from "react-icons/gr";
+import Button from "@mui/material/Button";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -48,9 +49,9 @@ const Tokenomics: React.FC = () => {
       <Modal open={open} onClose={() => setOpen(false)}>
         <div className="chartModal">
           <div className="chartModal--container">
-            <button onClick={() => setOpen(false)}>
+            <Button onClick={() => setOpen(false)}>
               <GrClose />
-            </button>
+            </Button>
 
             <h1>{tooltipData[id].Name}</h1>
             <h2>Allocation:</h2>
