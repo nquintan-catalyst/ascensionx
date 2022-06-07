@@ -10,7 +10,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $color-background;
   color: $color-foreground;
-  max-width: 100vw;
+  // max-width: 100vw;
+  overflow-x: hidden;
   //margin: 16px auto;
   //padding: 16px 32px;
   font-family: 'Nunito', sans-serif;
@@ -210,6 +211,10 @@ img {
   background-position: center;
   background-size: contain;
   background-repeat: repeat-y;
+}
+
+.main--container {
+  padding: 1rem 2rem 2rem 2rem;
 }
 
 .banner {

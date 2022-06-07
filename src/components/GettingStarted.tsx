@@ -24,6 +24,7 @@ const GettingStarted: React.FC = () => {
 
     return(
         <div className="GettingStarted">
+          <div className="main--container">
             <Header />
             <h1>Getting Started</h1>
             <Stepper activeStep={activeStep}>
@@ -43,6 +44,7 @@ const GettingStarted: React.FC = () => {
                 <Button variant="contained" onClick={handleBack}>Back</Button>
                 <Button variant="contained" onClick={handleNext}>Next</Button>
             </div>
+          </div>
         </div>
     );
 };

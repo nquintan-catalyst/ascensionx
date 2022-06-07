@@ -2,7 +2,7 @@ import Header from "./Header";
 
 const Buy: React.FC = () => {
     return(
-        <div>
+        <div className="main--container">
             <Header />
             <div className="buy">
 

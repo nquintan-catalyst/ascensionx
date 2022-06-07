@@ -9,7 +9,7 @@ type LeafProps = {
 
 const Leaf: React.FC<LeafProps> = ({children, side}) => {
 
-    const speed = Math.floor(Math.random() * 10) + 10;
+    const speed = Math.floor(Math.random() * 15) + 5;
 
     /* if (side === "Left") {
         return(
