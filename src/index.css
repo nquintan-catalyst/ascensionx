@@ -18,8 +18,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 h1,
@@ -99,12 +98,12 @@ table th {
 
 table tr {
   -webkit-box-shadow: 0 1px 0 0 #2e2e2e;
-  box-shadow: 0 1px 0 0 #2e2e2e;
+          box-shadow: 0 1px 0 0 #2e2e2e;
 }
 
 table tbody tr:last-child {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
 .button {
@@ -141,7 +140,7 @@ img {
   inline-size: 100%;
   block-size: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -151,8 +150,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .menu {
@@ -163,9 +162,9 @@ img {
 }
 
 .contentContainer--right {
-  background-image: url("./images/NewLeafRight.png");
+  background-image: url("./images/Patrick1Right.png");
   background-position: right;
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-repeat: no-repeat;
   min-height: 18rem;
   width: 100%;
@@ -176,14 +175,14 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media only screen and (max-width: 1110px) {
@@ -193,7 +192,7 @@ img {
 }
 
 .contentContainer--right p {
-  color: black;
+  color: white;
   max-width: 75ch;
 }
 
@@ -202,9 +201,9 @@ img {
 }
 
 .contentContainer--left {
-  background-image: url("./images/NewLeaf.png");
+  background-image: url("./images/Patrick1.png");
   background-position: left;
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-repeat: no-repeat;
   min-height: 18rem;
   width: 100%;
@@ -215,14 +214,14 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media only screen and (max-width: 1110px) {
@@ -232,7 +231,7 @@ img {
 }
 
 .contentContainer--left p {
-  color: black;
+  color: white;
   max-width: 75ch;
 }
 
@@ -258,12 +257,12 @@ img {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   grid-gap: 32px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .banner__copy {
@@ -292,9 +291,9 @@ img {
   left: 50%;
   bottom: 0;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   -webkit-box-shadow: 0 0 0 8px black;
-  box-shadow: 0 0 0 8px black;
+          box-shadow: 0 0 0 8px black;
 }
 
 .socials {
@@ -313,11 +312,11 @@ img {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #177114;
   border: 1px solid #177114;
   border-radius: 4px;
@@ -349,13 +348,7 @@ img {
   content: "";
   height: 100%;
   width: 32px;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(rgba(0, 0, 0, 0.5)),
-    to(rgba(0, 0, 0, 0))
-  );
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   position: absolute;
   top: 0;
@@ -366,13 +359,7 @@ img {
   content: "";
   height: 100%;
   width: 32px;
-  background: -webkit-gradient(
-    linear,
-    right top,
-    left top,
-    from(rgba(0, 0, 0, 0.5)),
-    to(rgba(0, 0, 0, 0))
-  );
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   position: absolute;
   top: 0;
@@ -393,7 +380,7 @@ img {
   scroll-padding-inline: var(--gap);
   padding-block: calc(var(--gap) / 2);
   -ms-scroll-snap-type: inline mandatory;
-  scroll-snap-type: inline mandatory;
+      scroll-snap-type: inline mandatory;
 }
 
 .media-shelf li {
@@ -448,12 +435,12 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .media-modal--container h1 {
@@ -469,7 +456,7 @@ img {
 
 .media-modal--container img {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   max-height: calc(90vh - 6rem);
 }
 
@@ -496,8 +483,8 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .chartModal--container button {
@@ -522,6 +509,10 @@ footer {
 
 .Faq h1 {
   padding-bottom: 2rem;
+}
+
+.Faq p {
+  color: black;
 }
 
 .FaqAccordion {
@@ -566,8 +557,8 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   list-style: none;
   overflow-x: scroll;
 }
@@ -599,8 +590,8 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .whitepaper-tabs--item--dropdown {
@@ -623,11 +614,11 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .stepperContent {
@@ -636,11 +627,11 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .stepperContent img {
@@ -654,8 +645,8 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .MuiStepLabel-label,

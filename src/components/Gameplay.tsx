@@ -83,16 +83,6 @@ const Gameplay: React.FC = () => {
           .
         </p>
       </Leaf>
-      <div className="gameImage">
-        <motion.img
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 2 }}
-          viewport={{ once: true }}
-          src={tornado}
-          alt="thing"
-        />
-      </div>
       <Leaf side="Right">
         <h2>Earn Returns From the Bank!</h2>
         <p>

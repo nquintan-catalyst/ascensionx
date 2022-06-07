@@ -151,13 +151,13 @@ img {
 }
 
 .contentContainer--right {
-  background-image: url("./images/NewLeafRight.png");
+  background-image: url("./images/Patrick1Right.png");
   background-position: right;
   @media only screen and (max-width: 1110px) {
     // properties for smaller screens
     background-size: cover;
   }
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-repeat: no-repeat;
 
   min-height: 18rem;
@@ -172,7 +172,7 @@ img {
   justify-content: center;
 
   p {
-    color: black;
+    color: white;
     max-width: 75ch;
   }
   a {
@@ -181,13 +181,13 @@ img {
 }
 
 .contentContainer--left {
-  background-image: url("./images/NewLeaf.png");
+  background-image: url("./images/Patrick1.png");
   background-position: left;
   @media only screen and (max-width: 1110px) {
     // properties for smaller screens
     background-size: cover;
   }
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   background-repeat: no-repeat;
 
   min-height: 18rem;
@@ -202,7 +202,7 @@ img {
   justify-content: center;
 
   p {
-    color: black;
+    color: white;
     max-width: 75ch;
   }
   a {
@@ -427,6 +427,9 @@ footer {
 .Faq {
   h1 {
     padding-bottom: 2rem;
+  }
+  p {
+    color: black;
   }
 }
 
