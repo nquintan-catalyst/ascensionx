@@ -6,11 +6,12 @@ import { motion } from "framer-motion";
 const Landingpage: React.FC = () => {
   return (
     <motion.div
-      initial={{ scale: 3, opacity: 0, y: -600 }}
-      animate={{ scale: 1, opacity: 1, y: 0 }}
+      initial={{ scale: 4, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
       transition={{
         default: { duration: 1 },
       }}
+      className="LandingPage"
     >
       <Header />
       <Banner />
