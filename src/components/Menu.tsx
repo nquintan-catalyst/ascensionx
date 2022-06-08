@@ -1,7 +1,13 @@
-const Manu: React.FC = () => {
+import Button from "@mui/material/Button";
+
+const Menu: React.FC = () => {
   return (
     <nav className="menu">
-      <li className="menu__item">
+      <Button href="/ascensionx">Home</Button>
+      <Button href="/ascensionx/buy">Buy $ASCN</Button>
+      <Button href="/ascensionx/whitepaper">Whitepaper</Button>
+      <Button href="/ascensionx/gettingStarted">Getting Started</Button>
+      {/*<li className="menu__item">
         <a href="/ascensionx">Home</a>
       </li>
       <li className="menu__item">
@@ -12,9 +18,9 @@ const Manu: React.FC = () => {
       </li>
       <li className="menu__item">
         <a href="/ascensionx/gettingStarted">Getting Started</a>
-      </li>
+      </li>*/}
     </nav>
   );
 };
 
-export default Manu;
+export default Menu;

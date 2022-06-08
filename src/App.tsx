@@ -13,43 +13,43 @@ function App() {
   return (
     <div>
       <main className="main">
-        <Landingpage />
+        <div className="main--container">
+          <Landingpage />
 
-        <article>
-          <About />
-        </article>
+          <article>
+            <About />
+          </article>
 
-        <article>
-          <Gameplay />
-        </article>
+          <article>
+            <Gameplay />
+          </article>
 
-        <article>
-          <Tokenomics />
-        </article>
+          <article>
+            <Tokenomics />
+          </article>
 
-        <article>
-          <Roadmap />
-        </article>
+          <article>
+            <Roadmap />
+          </article>
 
-        <article>
-          <Faq />
-        </article>
+          <article>
+            <Faq />
+          </article>
 
-        <article>
-          <Team />
-        </article>
+          <article>
+            <Team />
+          </article>
 
-        <article>
-          <Community />
-        </article>
+          <article>
+            <Community />
+          </article>
 
-        <article>
-          <Countdown />
-        </article>
+          <article>
+            <Countdown />
+          </article>
 
-        <footer>
-          © 2022.
-        </footer>
+          <footer>© 2022.</footer>
+        </div>
       </main>
     </div>
   );
