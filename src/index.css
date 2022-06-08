@@ -312,6 +312,18 @@ img {
   z-index: 1;
 }
 
+@media only screen and (max-width: 1110px) {
+  .videoTag {
+    top: 15vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .videoTag {
+    top: 35vh;
+  }
+}
+
 .socials {
   padding-top: 2rem;
   display: -webkit-box;
@@ -344,11 +356,23 @@ img {
 }
 
 .stack {
-  padding-top: calc(55vh);
+  padding-top: 55vh;
   display: -ms-grid;
   display: grid;
   grid-gap: 32px;
   max-width: calc(100vw - 4rem);
+}
+
+@media only screen and (max-width: 1000px) {
+  .stack {
+    padding-top: 35vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .stack {
+    padding-top: 15vh;
+  }
 }
 
 .stack--jic {
