@@ -1,4 +1,4 @@
-import * as React from "react";
+import { useState } from "react";
 import Header from "./Header";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
@@ -14,7 +14,7 @@ const steps = [
 ];
 
 const GettingStarted: React.FC = () => {
-  const [activeStep, setActiveStep] = React.useState(0);
+  const [activeStep, setActiveStep] = useState(0);
 
   const handleBack = () => {
     if (activeStep > 0) setActiveStep(activeStep - 1);
