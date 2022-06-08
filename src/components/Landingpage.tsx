@@ -17,7 +17,7 @@ const Landingpage: React.FC = () => {
       <Banner />
       <div className="stack stack--jic">
         <Socials />
-        <motion.a
+        {/*<motion.a
           initial={{ rotate: 0 }}
           whileHover={{
             rotate: [0, 10, -10, 0],
@@ -26,7 +26,7 @@ const Landingpage: React.FC = () => {
           className="button button--2nd"
         >
           Buy $ASCN
-        </motion.a>
+        </motion.a>*/}
       </div>
     </motion.div>
   );
