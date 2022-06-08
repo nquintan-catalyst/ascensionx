@@ -369,8 +369,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #177114;
-  border: 1px solid #177114;
+  color: white;
+  border: 1px solid white;
   border-radius: 4px;
 }
 
@@ -734,5 +734,15 @@ footer {
 .GettingStarted h1 {
   text-align: center;
   padding: 1.5rem;
+}
+
+.community {
+  padding-left: 3rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .community {
+    padding-left: 1rem;
+  }
 }
 /*# sourceMappingURL=index.css.map */

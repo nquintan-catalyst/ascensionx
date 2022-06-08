@@ -16,7 +16,9 @@ const Community: React.FC = () => {
           the Ascension Land NFTs, or the Ascension Ecoverse game, follow our
           social platforms and join our Discord community!
         </p>
-        <Socials />
+        <div className="community">
+          <Socials />
+        </div>
       </Leaf>
     </>
   );
